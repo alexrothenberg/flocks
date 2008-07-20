@@ -61,11 +61,13 @@ a:hover {
 	background:#efefef;
 	margin-right:10px;
 	}
+
 #content {
 	float:left;
 	width:500px;
 	min-height:400px;
 	}
+
 #footer {
 	clear:both;
 	height:100px;
@@ -78,6 +80,32 @@ a:hover {
 	padding: 10px;
 	font-size: 200%;
 }
+
+.side_widget {
+	padding-top: 20px;
+	float:right;
+	width:180px;
+}
+.side_widget h3 { 
+	text-align: center;
+}
+.side_widget ul {
+	list-style-type:none;
+	margin-top:10px;
+	}
+.side_widget li {	}
+.side_widget li a {
+	display:block;
+	height:20px;
+	line-height:20px;
+	color:#222222;
+	padding-left:5px;
+/*	border-bottom:1px solid #dddddd;*/
+	}
+.side_widget li a:hover {
+	color:#6CC4D8;
+	}
+
 
 /* Entries */
 

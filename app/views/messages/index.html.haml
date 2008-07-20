@@ -4,9 +4,11 @@
       %li= link_for_date 'Previous Day', @date - 1.day
       %li= link_for_date('Today', Date.today) unless @date == Date.today
       %li= link_for_date 'Next Day',  @date + 1.day
-/ .entry
-/   .entry-message
-/     ="Here are all the messages for #{@channel.name}"
-/     %div= @date
+-content_for :side_widget do
+  .side_widget
+    %h3= "Links on #{@date}"
+    %ul
+      - Message.links_from(@messages).each do |link|
+        %li= link_to truncate(link, 28), link, :alt => link
 #heading-message="Here are all the messages for #{@channel.name} on #{@date}"
 = render :partial => @messages

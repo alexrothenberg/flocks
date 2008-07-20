@@ -22,4 +22,15 @@ describe Message do
     Message.descending.all.first.should == message_1
   end
   
+  it 'should find links in message' do
+    message = create!(Message, :message => 'here is something http://www.google.com/something.txt, what do you think')
+    message.links.should == ['http://www.google.com/something.txt']
+  end
+  
+  it 'should find all the links in a list of messages' do
+    create!(Message, :message => 'here is something: http://www.google.com')
+    create!(Message, :message => 'here is something else: http://www.yahoo.com')
+    Message.links_from(Message.all).should == ['http://www.google.com', 'http://www.yahoo.com']
+  end
+  
 end
