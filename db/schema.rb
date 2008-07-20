@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080720221621) do
+ActiveRecord::Schema.define(:version => 20080720224426) do
 
   create_table "channels", :force => true do |t|
     t.string   "nickname"
@@ -21,11 +21,12 @@ ActiveRecord::Schema.define(:version => 20080720221621) do
   end
 
   create_table "messages", :force => true do |t|
-    t.integer  "channel_id", :limit => 11
+    t.integer  "channel_id",  :limit => 11
     t.string   "nickname"
     t.text     "message"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "nickname_id", :limit => 11
   end
 
   create_table "nicknames", :force => true do |t|

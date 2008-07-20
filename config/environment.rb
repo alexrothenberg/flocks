@@ -12,7 +12,7 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
 
-  config.gem 'rspec', :lib => 'spec', :version => '1.1.4'
+  # config.gem 'rspec', :lib => 'spec', :version => '1.1.4'
   config.gem 'haml'
   config.time_zone = 'UTC'
 
