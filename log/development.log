@@ -70170,3 +70170,188 @@ Migrating to ExtractUserNames (20080720224426)
   [4;36;1mSQL (0.002064)[0m   [0;1mSHOW FIELDS FROM `nicknames`[0m
   [4;35;1mSQL (0.002112)[0m   [0mdescribe `nicknames`[0m
   [4;36;1mSQL (0.001212)[0m   [0;1mSHOW KEYS FROM `nicknames`[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000175)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000145)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000545)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000353)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000389)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000445)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.012511)[0m   [0;1mSHOW FIELDS FROM `channels`[0m
+  [4;35;1mSQL (0.002546)[0m   [0mdescribe `channels`[0m
+  [4;36;1mSQL (0.001256)[0m   [0;1mSHOW KEYS FROM `channels`[0m
+  [4;35;1mSQL (0.002405)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.002420)[0m   [0;1mdescribe `messages`[0m
+  [4;35;1mSQL (0.001386)[0m   [0mSHOW KEYS FROM `messages`[0m
+  [4;36;1mSQL (0.002372)[0m   [0;1mSHOW FIELDS FROM `nicknames`[0m
+  [4;35;1mSQL (0.002283)[0m   [0mdescribe `nicknames`[0m
+  [4;36;1mSQL (0.001343)[0m   [0;1mSHOW KEYS FROM `nicknames`[0m
+  [4;35;1mSQL (0.000165)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.036672)[0m   [0mDROP DATABASE IF EXISTS `mon_irc_test`[0m
+  [4;36;1mSQL (0.000583)[0m   [0;1mCREATE DATABASE `mon_irc_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;35;1mSQL (0.000172)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.000171)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000407)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002138)[0m   [0;1mCREATE TABLE `channels` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nickname` varchar(255) DEFAULT NULL NULL, `name` varchar(255) DEFAULT NULL NULL, `server` varchar(255) DEFAULT NULL NULL, `port` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000751)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002701)[0m   [0;1mCREATE TABLE `messages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `channel_id` bigint(11) DEFAULT NULL NULL, `nickname` varchar(255) DEFAULT NULL NULL, `message` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `nickname_id` bigint(11) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000781)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002355)[0m   [0;1mCREATE TABLE `nicknames` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000596)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003044)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.005683)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.000718)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000689)[0m   [0mSELECT version FROM `schema_migrations`[0m
+  [4;36;1mSQL (0.000648)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20080720224426')[0m
+  [4;35;1mSQL (0.000769)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20080719195550')[0m
+  [4;36;1mSQL (0.000663)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20080719195600')[0m
+  [4;35;1mSQL (0.000629)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20080720221621')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000176)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000145)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000494)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000352)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000384)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000463)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001997)[0m   [0;1mSHOW FIELDS FROM `channels`[0m
+  [4;35;1mSQL (0.001823)[0m   [0mdescribe `channels`[0m
+  [4;36;1mSQL (0.000823)[0m   [0;1mSHOW KEYS FROM `channels`[0m
+  [4;35;1mSQL (0.002503)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.002011)[0m   [0;1mdescribe `messages`[0m
+  [4;35;1mSQL (0.001703)[0m   [0mSHOW KEYS FROM `messages`[0m
+  [4;36;1mSQL (0.001597)[0m   [0;1mSHOW FIELDS FROM `nicknames`[0m
+  [4;35;1mSQL (0.001603)[0m   [0mdescribe `nicknames`[0m
+  [4;36;1mSQL (0.000850)[0m   [0;1mSHOW KEYS FROM `nicknames`[0m
+  [4;35;1mSQL (0.000162)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.040345)[0m   [0mDROP DATABASE IF EXISTS `mon_irc_test`[0m
+  [4;36;1mSQL (0.000646)[0m   [0;1mCREATE DATABASE `mon_irc_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;35;1mSQL (0.000188)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000398)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002107)[0m   [0;1mCREATE TABLE `channels` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nickname` varchar(255) DEFAULT NULL NULL, `name` varchar(255) DEFAULT NULL NULL, `server` varchar(255) DEFAULT NULL NULL, `port` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000571)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002433)[0m   [0;1mCREATE TABLE `messages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `channel_id` bigint(11) DEFAULT NULL NULL, `nickname` varchar(255) DEFAULT NULL NULL, `message` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `nickname_id` bigint(11) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.001331)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002315)[0m   [0;1mCREATE TABLE `nicknames` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000613)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002810)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.005355)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.000710)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000558)[0m   [0mSELECT version FROM `schema_migrations`[0m
+  [4;36;1mSQL (0.000678)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20080720224426')[0m
+  [4;35;1mSQL (0.000677)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20080719195550')[0m
+  [4;36;1mSQL (0.000689)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20080719195600')[0m
+  [4;35;1mSQL (0.000641)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20080720221621')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000176)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000146)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000496)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000353)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000397)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000448)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.012173)[0m   [0;1mSHOW FIELDS FROM `channels`[0m
+  [4;35;1mSQL (0.002589)[0m   [0mdescribe `channels`[0m
+  [4;36;1mSQL (0.001182)[0m   [0;1mSHOW KEYS FROM `channels`[0m
+  [4;35;1mSQL (0.002359)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.002732)[0m   [0;1mdescribe `messages`[0m
+  [4;35;1mSQL (0.002267)[0m   [0mSHOW KEYS FROM `messages`[0m
+  [4;36;1mSQL (0.002081)[0m   [0;1mSHOW FIELDS FROM `nicknames`[0m
+  [4;35;1mSQL (0.002059)[0m   [0mdescribe `nicknames`[0m
+  [4;36;1mSQL (0.001214)[0m   [0;1mSHOW KEYS FROM `nicknames`[0m
+  [4;35;1mSQL (0.000190)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.043070)[0m   [0mDROP DATABASE IF EXISTS `mon_irc_test`[0m
+  [4;36;1mSQL (0.000590)[0m   [0;1mCREATE DATABASE `mon_irc_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;35;1mSQL (0.000209)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000425)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002350)[0m   [0;1mCREATE TABLE `channels` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nickname` varchar(255) DEFAULT NULL NULL, `name` varchar(255) DEFAULT NULL NULL, `server` varchar(255) DEFAULT NULL NULL, `port` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000573)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002800)[0m   [0;1mCREATE TABLE `messages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `channel_id` bigint(11) DEFAULT NULL NULL, `nickname` varchar(255) DEFAULT NULL NULL, `message` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `nickname_id` bigint(11) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000635)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002056)[0m   [0;1mCREATE TABLE `nicknames` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000624)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002996)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.005561)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.000708)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000674)[0m   [0mSELECT version FROM `schema_migrations`[0m
+  [4;36;1mSQL (0.000794)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20080720224426')[0m
+  [4;35;1mSQL (0.000764)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20080719195550')[0m
+  [4;36;1mSQL (0.000703)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20080719195600')[0m
+  [4;35;1mSQL (0.000696)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20080720221621')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000179)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000144)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000499)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000339)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000387)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000442)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.012145)[0m   [0;1mSHOW FIELDS FROM `channels`[0m
+  [4;35;1mSQL (0.002516)[0m   [0mdescribe `channels`[0m
+  [4;36;1mSQL (0.001222)[0m   [0;1mSHOW KEYS FROM `channels`[0m
+  [4;35;1mSQL (0.002351)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.002413)[0m   [0;1mdescribe `messages`[0m
+  [4;35;1mSQL (0.001481)[0m   [0mSHOW KEYS FROM `messages`[0m
+  [4;36;1mSQL (0.002072)[0m   [0;1mSHOW FIELDS FROM `nicknames`[0m
+  [4;35;1mSQL (0.002086)[0m   [0mdescribe `nicknames`[0m
+  [4;36;1mSQL (0.001324)[0m   [0;1mSHOW KEYS FROM `nicknames`[0m
+  [4;35;1mSQL (0.000166)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.048271)[0m   [0mDROP DATABASE IF EXISTS `mon_irc_test`[0m
+  [4;36;1mSQL (0.000600)[0m   [0;1mCREATE DATABASE `mon_irc_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;35;1mSQL (0.000190)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000399)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001892)[0m   [0;1mCREATE TABLE `channels` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nickname` varchar(255) DEFAULT NULL NULL, `name` varchar(255) DEFAULT NULL NULL, `server` varchar(255) DEFAULT NULL NULL, `port` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000395)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002438)[0m   [0;1mCREATE TABLE `messages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `channel_id` bigint(11) DEFAULT NULL NULL, `nickname` varchar(255) DEFAULT NULL NULL, `message` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `nickname_id` bigint(11) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000657)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002250)[0m   [0;1mCREATE TABLE `nicknames` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000598)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002989)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.005526)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.000682)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000639)[0m   [0mSELECT version FROM `schema_migrations`[0m
+  [4;36;1mSQL (0.000724)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20080720224426')[0m
+  [4;35;1mSQL (0.000702)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20080719195550')[0m
+  [4;36;1mSQL (0.000706)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20080719195600')[0m
+  [4;35;1mSQL (0.000609)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20080720221621')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000180)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000154)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000499)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000330)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000390)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000436)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.011582)[0m   [0;1mSHOW FIELDS FROM `channels`[0m
+  [4;35;1mSQL (0.003304)[0m   [0mdescribe `channels`[0m
+  [4;36;1mSQL (0.001212)[0m   [0;1mSHOW KEYS FROM `channels`[0m
+  [4;35;1mSQL (0.002317)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.003253)[0m   [0;1mdescribe `messages`[0m
+  [4;35;1mSQL (0.001381)[0m   [0mSHOW KEYS FROM `messages`[0m
+  [4;36;1mSQL (0.002060)[0m   [0;1mSHOW FIELDS FROM `nicknames`[0m
+  [4;35;1mSQL (0.002110)[0m   [0mdescribe `nicknames`[0m
+  [4;36;1mSQL (0.001211)[0m   [0;1mSHOW KEYS FROM `nicknames`[0m
+  [4;35;1mSQL (0.000205)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.005797)[0m   [0mDROP DATABASE IF EXISTS `mon_irc_test`[0m
+  [4;36;1mSQL (0.000561)[0m   [0;1mCREATE DATABASE `mon_irc_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;35;1mSQL (0.000170)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000396)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.035143)[0m   [0;1mCREATE TABLE `channels` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `nickname` varchar(255) DEFAULT NULL NULL, `name` varchar(255) DEFAULT NULL NULL, `server` varchar(255) DEFAULT NULL NULL, `port` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000771)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002421)[0m   [0;1mCREATE TABLE `messages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `channel_id` bigint(11) DEFAULT NULL NULL, `nickname` varchar(255) DEFAULT NULL NULL, `message` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `nickname_id` bigint(11) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000631)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002315)[0m   [0;1mCREATE TABLE `nicknames` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000819)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003235)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.005345)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.000720)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000566)[0m   [0mSELECT version FROM `schema_migrations`[0m
+  [4;36;1mSQL (0.000686)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20080720224426')[0m
+  [4;35;1mSQL (0.000674)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20080719195550')[0m
+  [4;36;1mSQL (0.000641)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20080719195600')[0m
+  [4;35;1mSQL (0.000633)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20080720221621')[0m

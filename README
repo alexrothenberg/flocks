@@ -1,2 +1,5 @@
 == TODO ==
-* 
+* Extract Links in Message
+* Hyperlink links in messages
+* Add Calendar to select date
+* Prevent paginating past/before first and last day with messages

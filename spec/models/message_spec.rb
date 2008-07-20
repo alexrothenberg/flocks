@@ -3,9 +3,23 @@ require File.dirname(__FILE__) + '/../spec_helper'
 describe Message do
 
   it 'should always have a nickname' do
-    message = create!(Message, :nickname_id => nil)
-    message.should_not be_valid?
+    message = new!(Message, :nickname_id => nil)
+    message.should_not be_valid
     message.errors.on(:nickname).should_not be_nil
+  end
+
+  it 'should always have a channel' do
+    message = new!(Message, :channel_id => nil)
+    message.should_not be_valid
+    message.errors.on(:channel).should_not be_nil    
+  end
+  
+  it 'should order messages by newest message first' do
+    message_1 = create!(Message)
+    message_2 = create!(Message)
+    message_2.update_attribute(:created_at, 2.days.ago)
+    
+    Message.descending.all.first.should == message_1
   end
   
 end
