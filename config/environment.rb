@@ -11,9 +11,8 @@ RAILS_GEM_VERSION = '2.1.0' unless defined? RAILS_GEM_VERSION
 require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
-  # config.gem "bj"
-  # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
-  # config.gem "aws-s3", :lib => "aws/s3"
+
+  config.gem 'rspec', :lib => 'spec', :version => '1.1.4'
   config.gem 'haml'
   config.time_zone = 'UTC'
 

@@ -9,6 +9,8 @@ require 'rake/rdoctask'
 
 require 'tasks/rails'
 
+#REMOVE RUNNING UNIT TESTS AT ALL
+Rake::Task[:default].prerequisites.delete('test')
 
 namespace :db do
   task :populate => :environment do 
