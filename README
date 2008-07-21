@@ -1,5 +1,14 @@
-== TODO ==
-* Extract Links in Message
-* Hyperlink links in messages
-* Add Calendar to select date
-* Prevent paginating past/before first and last day with messages
+== WHAT IS FLOCK ==
+
+Flock is to IRC channel transcriber. Flock captures discussions in IRC chat rooms and provides conversation browsing.
+
+== GETTING STARTED ==
+
+1. Create the database: rake db:bootstrap
+2. Configure channel(s) to monitor. See the populate task in db.rake
+   i.e.
+   Channel.create(:name => '#rubyfringe',    :nickname => 'flock_bot', :server => "irc.freenode.net", :port => '6667')
+   Channel.create(:name => '#rails-contrib', :nickname => 'flock_bot', :server => "irc.freenode.net", :port => '6667')
+3. Start processes to monitor the IRC channels: rake monitor:all
+4. Start the app: script/server
+5. Enjoy!

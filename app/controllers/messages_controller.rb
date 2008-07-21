@@ -1,4 +1,21 @@
 class MessagesController < ApplicationController
+
+  def show
+    @message = Message.find(params[:id])
+  end
+
+  #FIX: Stupid Hack to fix eventually when i get a better date controller
+  def create
+    if params[:date]
+      date = Date.parse(params[:date])
+      redirect_to message_by_date_url(:channel_id => params[:channel_id], 
+                                      :month => date.month,
+                                      :year => date.year,
+                                      :day => date.day)
+    else
+      redirect_to :back
+    end
+  end
   
   def index
     if params[:channel_id]

@@ -9,6 +9,13 @@
         %li= link_for_date('Previous Day', @date - 1.day) if Message.any_before?(@date)
         %li= link_for_date('Next Day',  @date + 1.day) if Message.any_after?(@date)
         %li= link_for_date('Today', Date.today) unless @date == Date.today
+        %li
+          = javascript_include_tag 'calendar'
+          = stylesheet_link_tag 'calendar'
+          - form_for 'date', :url => channel_messages_url(@channel), :method => :get do
+            = text_field_tag 'date', @date.strftime('%m/%d/%Y'), :width => 10
+            = submit_tag 'Select', :onclick => "displayDatePicker('date');return false;"
+            = submit_tag 'View'
 -content_for :side_widget do
   .side_widget
     %h3= "Links on #{@date}"
