@@ -33,4 +33,24 @@ describe Message do
     Message.links_from(Message.all).should == ['http://www.google.com', 'http://www.yahoo.com']
   end
   
+  it 'should indicate if there messages after a given date' do
+    message = create!(Message)
+    message.update_attribute(:created_at, Date.today)    
+    Message.any_after?(Date.today).should be_false
+    
+    new_message_tomorrow = create!(Message)
+    new_message_tomorrow.update_attribute(:created_at, 1.day.from_now)
+    Message.any_after?(Date.today).should be_true
+  end
+
+  it 'should indicate if there messages before a given date' do
+    message = create!(Message)
+    message.update_attribute(:created_at, Date.today)    
+    Message.any_before?(Date.today).should be_false
+    
+    message_yesterday = create!(Message)
+    message_yesterday.update_attribute(:created_at, 2.day.ago)
+    Message.any_before?(Date.today).should be_true
+  end
+  
 end

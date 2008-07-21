@@ -9,13 +9,23 @@ class Message < ActiveRecord::Base
   validates_presence_of :nickname
   validates_presence_of :channel
   
+  class << self
+    def any_after?(date)
+      find(:first, :order => 'created_at DESC', :limit => 1).created_at >= (date + 1.day)
+    end
+
+    def any_before?(date)
+      find(:first, :order => 'created_at ASC', :limit => 1).created_at <= date
+    end
+
+    #REFACTOR: Not a big fan of making this a class method, i feel it breaks encapsulation
+    def links_from(records)
+      records.map(&:links).flatten
+    end    
+  end
+  
   def links
     LinkExtractor.extract(message)
   end
-  
-  def self.links_from(records)
-    #REFACTOR: Not a big fan of making this a class method, i feel it breaks encapsulation
-    records.map(&:links).flatten
-  end
-  
+    
 end

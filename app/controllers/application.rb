@@ -2,7 +2,8 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
-  layout 'public'
+  layout proc{ |controller| controller.params[:format] == 'xml' ? nil : 'public'}
+
   helper :all # include all helpers, all the time
 
   # See ActionController::RequestForgeryProtection for details

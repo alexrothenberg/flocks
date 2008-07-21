@@ -499,3 +499,1062 @@ WARNING: You're using the Ruby-based MySQL library that ships with Rails. This l
   [4;35;1mSQL (0.000128)[0m   [0mROLLBACK[0m
   [4;36;1mSQL (0.000131)[0m   [0;1mBEGIN[0m
   [4;35;1mSQL (0.000118)[0m   [0mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000144)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012072)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000517)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:54:24', '2008-07-21 00:54:24')[0m
+  [4;35;1mChannel Columns (0.003036)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000321)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:54:24', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:54:24')[0m
+  [4;35;1mMessage Columns (0.002414)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000660)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 29) [0m
+  [4;35;1mChannel Load (0.000754)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 29) [0m
+  [4;36;1mMessage Create (0.000257)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('LQwe UyRkGHpqn7ZhkVw6jhgaSYHvxwe3tau4zBZ4C2UfZ Kn473dt S9wO2JaBVtJxUB6JDGqt4wuX VOPF6ONLHJdrHZB5SDyBJqYwSWdC3kRHrsgS8BaYHR6FrJk5KTcPU7s6 y6D4CUXxQHGfM4QFADXsttfNAXffBWcqq5tWzgfkH3srJsNsmLAnp2t2OVHX 98MYWrYgMeE3OORHFpRXAyB7Z9b3 mt8E8pcgpSpLP6dSzRTjxD3SREy9yqsFBeC', 29, '2008-07-21 00:54:24', NULL, 29, '2008-07-21 00:54:24')[0m
+  [4;35;1mMessage Load (0.000523)[0m   [0mSELECT * FROM `messages` LIMIT 1[0m
+  [4;36;1mSQL (0.000656)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000173)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000144)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011507)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000373)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:54:42', '2008-07-21 00:54:42')[0m
+  [4;35;1mChannel Columns (0.002269)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000279)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:54:42', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:54:42')[0m
+  [4;35;1mMessage Columns (0.001915)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mChannel Load (0.000597)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 30) [0m
+  [4;35;1mSQL (0.000645)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000459)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:54:42', '2008-07-21 00:54:42')[0m
+  [4;36;1mChannel Create (0.000408)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:54:42', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:54:42')[0m
+  [4;35;1mNickname Load (0.000532)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 31) [0m
+  [4;36;1mSQL (0.000723)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000161)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000292)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:54:42', '2008-07-21 00:54:42')[0m
+  [4;35;1mChannel Create (0.000279)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:54:42', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:54:42')[0m
+  [4;36;1mNickname Load (0.000522)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 32) [0m
+  [4;35;1mChannel Load (0.000580)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 32) [0m
+  [4;36;1mMessage Create (0.000214)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('9UNcenZPnKc2dZwYj 5veJ3fWnTHS29cZCrsSNUwYH35qkwWeVCN9 tkSBOjNKAEUp9789hjuHEHXA7n48uk ZJY h3 dgAFqdd3y MATnTW39EvxcRABKgn5f5sw78BOCtwygz7W Xa9Uh4kj9QrchFwE7 JRD5DFjZTvA 3d2d4R ekjRdzkpHeWHXEYYfV8b TNaJGUu HBACdX4 gaZcaTeHzFP7ytaRJgNzXVU', 32, '2008-07-21 00:54:42', NULL, 32, '2008-07-21 00:54:42')[0m
+  [4;35;1mNickname Create (0.000177)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 00:54:42', '2008-07-21 00:54:42')[0m
+  [4;36;1mChannel Create (0.000181)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 00:54:42', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 00:54:42')[0m
+  [4;35;1mNickname Load (0.000399)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 33) [0m
+  [4;36;1mChannel Load (0.000514)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 33) [0m
+  [4;35;1mMessage Create (0.000222)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('hQW7uBR s wVKv9FAuxYSjqR9AVv372xk7nVuRetVwNDs7eSS56sdetmHHEZxS pEaWKF mAbBRPSd787qCe sLxUXD7uMJVNq8WNRPLrrhbm82wqSak8zmG 5a pRzSQLyGsZb8VHHvQEtvFncSOAjLqwxU9EMPpOeTqM6YVEGxsYc3Yy96ybAYezDxyWXGHEuxDv5M NgyZ 36p84PyPrmTBmg3NqeHK2hN5aXMcLpPb6mnc2J9ZRb 4PWrmyOdte4zyfz2zYAaSLVBF HyynY5R cQBbLRknyu9ryVFXghmq ARK8GcBMUF7muX8Z44bfY VN ZtCw2nxOPGrm6UGs2ZdXQCuVVJnZSH57cV K MX A87waErGym 3WABh3vQcF8cv2M2eOu7may VvC8WJzp6dkG j5O52L2syh3jXDFESdmkMYwMsB 9y DbCsASPUKw8qb VEtYaArx xFYEVd8bWmm6TGyrc9BwVRMU3 3AN8tZuvW6JF2DvRMOL7nFUxTbJt6LMfjALEKBktxhZx94J9QhWRbrcekYHNaJrbaxxq yZhJZ7 LWsh8F8zN2JrEYSD6AjMrrfwFyQRyVuxUuSSc5uUbgPcRKHySbuVr7zqtxP8OOW84jaw7SOPztpVOYRQMUcXZxYJUzW2qh8Grcs mEkZaN4YAMc9qcMqeZEZ6mMjxxPcquLWzgQOMAYDsKFQqEzd6A7CXzzcKGWTKQm6Eg5pk7XTqCxAJFT NTCxZsRhwVqtDBAGmXAwffVCZAzhUqqp kcPXDvWF7ux Wtw7r3wgA5qyOxQgVG6BhegyNKkmyTcsgke8YgfLzPVdMjSXEZYKc8793faDQuhBNr94a3EdL', 33, '2008-07-21 00:54:42', NULL, 33, '2008-07-21 00:54:42')[0m
+  [4;36;1mMessage Update (0.000379)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-19 00:54:42', `updated_at` = '2008-07-21 00:54:42' WHERE `id` = 23[0m
+  [4;35;1mMessage Load (0.000646)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC[0m
+  [4;36;1mSQL (0.000686)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000142)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000275)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:54:42', '2008-07-21 00:54:42')[0m
+  [4;35;1mChannel Create (0.000228)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:54:42', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:54:42')[0m
+  [4;36;1mNickname Load (0.000479)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 34) [0m
+  [4;35;1mChannel Load (0.000569)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 34) [0m
+  [4;36;1mMessage Create (0.000206)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something http://www.google.com/something.txt, what do you think', 34, '2008-07-21 00:54:42', NULL, 34, '2008-07-21 00:54:42')[0m
+  [4;35;1mSQL (0.021544)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000275)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000367)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:54:42', '2008-07-21 00:54:42')[0m
+  [4;36;1mChannel Create (0.000266)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:54:42', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:54:42')[0m
+  [4;35;1mNickname Load (0.000606)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 35) [0m
+  [4;36;1mChannel Load (0.000805)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 35) [0m
+  [4;35;1mMessage Create (0.000307)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something: http://www.google.com', 35, '2008-07-21 00:54:42', NULL, 35, '2008-07-21 00:54:42')[0m
+  [4;36;1mNickname Create (0.000188)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 00:54:42', '2008-07-21 00:54:42')[0m
+  [4;35;1mChannel Create (0.000181)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 00:54:42', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 00:54:42')[0m
+  [4;36;1mNickname Load (0.000417)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 36) [0m
+  [4;35;1mChannel Load (0.000513)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 36) [0m
+  [4;36;1mMessage Create (0.000192)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something else: http://www.yahoo.com', 36, '2008-07-21 00:54:42', NULL, 36, '2008-07-21 00:54:42')[0m
+  [4;35;1mMessage Load (0.000543)[0m   [0mSELECT * FROM `messages` [0m
+  [4;36;1mSQL (0.000618)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000131)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000262)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:54:42', '2008-07-21 00:54:42')[0m
+  [4;35;1mChannel Create (0.000263)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:54:42', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:54:42')[0m
+  [4;36;1mNickname Load (0.000510)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 37) [0m
+  [4;35;1mChannel Load (0.000520)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 37) [0m
+  [4;36;1mMessage Create (0.000220)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('ccT9TC4qSbjgSGUVUfEQu3EucWWvdzm2xTZqvybtzP8qvMrOqkgYFZuaqUJpjfjABtyXWD5wtTsb7t3GJexcMMnbSNtwnyHhqhsm ahnpZ2LSJ KGYmaqfB5hQG73u Bvy KnxRyAhbRvTOCf5uFsjnwtPA3CHCMnNb Sm8CdSRMMhe2Y9QL5Jgs9PpJAh PNAH6UOBq8PfNWp cVdrvSjPL 9J 9 GJjQfJ8LBGdQ9y5hSJNCD7ddCj42JSLphvEZ7TbvU6HGWRpGE7OBpbckJk762gcwVGNJfV4 Htypt8 q3dtAmtwT vFC2ZA49 HTM2ahxmNnOdmN 4Jyde7sMGEFxTkYnOuPTR4xJkJLs9Rs7qwuDYOe QbQ dRpbXFHhrbGb8gK6 yTCLbUMJYFO jjwDWzOELp7s3N4VbqMkfW9zGT7g EJ8H22JrQEBsR8 Zjem3BqDMKquCz', 37, '2008-07-21 00:54:42', NULL, 37, '2008-07-21 00:54:42')[0m
+  [4;35;1mMessage Load (0.000577)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC LIMIT 1[0m
+  [4;36;1mSQL (0.000679)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000470)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000190)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000144)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012181)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000398)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:55:19', '2008-07-21 00:55:19')[0m
+  [4;35;1mChannel Columns (0.003376)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000407)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:55:19', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:55:19')[0m
+  [4;35;1mMessage Columns (0.002513)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000649)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 38) [0m
+  [4;35;1mChannel Load (0.000738)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 38) [0m
+  [4;36;1mMessage Create (0.000279)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('4A4mhY7qMpr VDeAgcnjuTG4EPpOX', 38, '2008-07-21 00:55:19', NULL, 38, '2008-07-21 00:55:19')[0m
+  [4;35;1mMessage Load (0.000565)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.000778)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000172)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.075347)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000379)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:55:46', '2008-07-21 00:55:46')[0m
+  [4;35;1mChannel Columns (0.002174)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000268)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:55:46', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:55:46')[0m
+  [4;35;1mMessage Columns (0.001922)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000497)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 39) [0m
+  [4;35;1mChannel Load (0.000527)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 39) [0m
+  [4;36;1mMessage Create (0.000261)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('GRg2MNOVA4raEuLV4y5nYdxqYQhUk6cXwvpT8F7jbtMSub8huv2Dnabg8 JaPsSpKRYXyFSx3bOOghYQZCWh bkwyK9RhGC mfEwWJsYajXbtE5LXdtKzU6PTsaguVYZHkGD9S6pJYOeBn E9rZ99XnVnMCKAjsM3xz Z QSkNGzWh wpCxvbxBz DuWA4cpgFdtxJtwsNmgGBkMpHbnx QWHVupOpbPLEOjhc7h8 W8TOzAbEBQc3yDa7a5BkD3CWeTRhLL4jdcESPew8fcFvWubUQwjxQn4v fT9eemOLSpkUDHXJctZ bwWKKrQA3LTwCNJ 6ng5DR 3jOcqCXBzKvphPhtPng qUfVJTJOXkNRtN9end9Lb8ve5Tgpg8mtWQurjtVWAJ2jZUzSWAEUyBRahMqmPgbrUWeaMLqxk8UsZqX w2NUWnhQVPrH rCaAgrURKHaexFSNUEThUdaXvGDQ4hEaSMrwPPu5evnbFPeAuTAg6tPWJsp3MCFwaVsNXEq9B774rPmFZUR 8hjOjwTvsVp z GMJBrhqXbGP 9638k4QF4SEK6JR83NjFfVAjDtJj8yfJOYKJLsv6v4De9ekPgMSgMZgmRt YXkuf p g GBF2w HZ PpxCzsCpT8WBuWdGZ5mfKkQaz MbqD9u s4XPcdU 5KveW2dzhySOTGsDzHhFCbeKjqbJbx7uZVTW xx2kLgKMgcsmLfCQjpyJJPGYPhYHq6JKSrJkjVMFMLzNPxsXTTBbNPHyHdGNmz7Ct3DGpxZVvBTBJxegSuP', 39, '2008-07-21 00:55:46', NULL, 39, '2008-07-21 00:55:46')[0m
+  [4;35;1mMessage Load (0.000583)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.000678)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000198)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012062)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000355)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:55:54', '2008-07-21 00:55:54')[0m
+  [4;35;1mChannel Columns (0.002526)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000396)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:55:54', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:55:54')[0m
+  [4;35;1mMessage Columns (0.001889)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000515)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 40) [0m
+  [4;35;1mChannel Load (0.000555)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 40) [0m
+  [4;36;1mMessage Create (0.000224)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('TOQPAX8Z NwWY36gtuO7O Dxsxq jVB78h buKUZeePRUg3PpnPf UBP8UQ5pm 9S3 wfr2uTegzmQ6t8YSH2PMppObp a v SF4J3fLwZGh8WmWppJ', 40, '2008-07-21 00:55:54', NULL, 40, '2008-07-21 00:55:54')[0m
+  [4;35;1mMessage Load (0.000619)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.032797)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000173)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.001885)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000300)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:56:27', '2008-07-21 00:56:27')[0m
+  [4;35;1mChannel Columns (0.001980)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000256)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:56:27', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:56:27')[0m
+  [4;35;1mMessage Columns (0.001887)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000457)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 41) [0m
+  [4;35;1mChannel Load (0.000521)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 41) [0m
+  [4;36;1mMessage Create (0.000237)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('zekk 8vOO nfjY9 7Q thOH ZbrQ2Kdd8J3Pxfqrdwb9NdRMUzp4gkRwY q7CqdmLMjvKWpChUvbWWhb 6Akb7xSa rV84G2sG76LVe8OBGZaFgtcYv3jNYKgDwXPtqB3MLX3QWK7RHwrem6YSy aNWFyugGXmBbCKAnVnX5Q PAzm3TgjrT4c7xkKztszJKRT Ua2L byXvNf KhWWcgaTV2O3Qs 2WLG3WWsuB zpsHck35BN9KKtzcGpSXnRSQzxHkGw9ZWAmEvrOxdTHbQGsY3QB S6eqHtk7xqgVZ5rDDpkw6kdYVkAQYhb 7t7TWLYguYDdPCfEOtASkrw2Vgzfa7kDXvbWvrPKQFaaBee2V8dK nvt bMd gp42UWr S3Pz3Q9 OQpmzVCTjsztC8CqcdrqTvmu7OGzTKn FyxfAyAb3bukTH3pDRuO5X2KgCaO9c9 BPWEtar9tsAGcx4tERwVGrauMUNhZEY OeJ rdahq 3pDkhSFTKWpNxc234hj2NtB67da3UWYcF7DO 6yEYf neAjZF3drCutkeusqy6NkJKL3efQynQcULvba7tbQ DtcMJHnBTpsh9hwtEgqLSXbDZyX6P3dUgsOYQsyVDqYDA6s xaUeRK eEA6a7UpcDjWzK3epX8qBQQJ6YB CmFQ2U 2nPdgLFSefeJPGkdGc qyKLjkhKxT6H VfnCsUGWZ ZQgmnyXmYmSVcXu6bxsnpxukPCkv6z3WC6', 41, '2008-07-21 00:56:27', NULL, 41, '2008-07-21 00:56:27')[0m
+  [4;35;1mMessage Load (0.000564)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.000674)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000175)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000144)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000117)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012748)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000416)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:56:40', '2008-07-21 00:56:40')[0m
+  [4;35;1mChannel Columns (0.002355)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000283)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:56:40', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:56:40')[0m
+  [4;35;1mMessage Columns (0.001879)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000462)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 42) [0m
+  [4;35;1mChannel Load (0.000522)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 42) [0m
+  [4;36;1mMessage Create (0.000254)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('u6dMQLjJCE4u9aqtV ZcHCvv9mYFA DTqgrS6arpc j2b8C55wvnVB 8XdAtuwyJaWNyyPdrQN2J9 rUPA HpZgWxndRrbADtSjB3HF q7X7yMAYn8rgzEPS2NnDFQf UaQ8eeA2wcD6qVPsqzZhNHU3q9n6dAXN8 zFYeTbZvD4xLQeg 7xF2VjA3fa 67wbtDN2nuhhHbZR bw85k7PzF q2BPtK5XH3qGq UYYBKwfyaxn5JSTdar7tRxgwY59LAt n5tyHp9yS6hUkQG rSW4QDu 6V4Zkjm yB5dgL 7BWxk8UK7tZP bGrVPkyyPZsyxWaQ pE4Wa R5b 3HEhGdHznAgp ytmrkkcaCzApfTQrmLJZzFNp9n5aQBZn3FV pncxKgjcY3XkeZJ94OZ6J7CNjsP6TvgQkm9khqv9Dx KKUexEw5Z7WkD H Atxv6tEW8d EOxqqdwObeB5ga33Ut WQOm4BJfTVGA', 42, '2008-07-21 00:56:40', NULL, 42, '2008-07-21 00:56:40')[0m
+  [4;35;1mMessage Load (0.000676)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC LIMIT 1[0m
+  [4;36;1mSQL (0.000646)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011811)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.001203)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:57:29', '2008-07-21 00:57:29')[0m
+  [4;35;1mChannel Columns (0.002579)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000334)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:57:29', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:57:29')[0m
+  [4;35;1mMessage Columns (0.002424)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000626)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 43) [0m
+  [4;35;1mChannel Load (0.000757)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 43) [0m
+  [4;36;1mMessage Create (0.000297)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('4kUxXrq587ONHYUNrsuFe8gaRgCqpQDGZFPDz7xb2FCUXP KPf8C8tpDYdY cYrV eQkcO3jA BRCCmWuF 4W79wYjUsP8Bm8SX6FL6cNZnCke7GaEVE789B639zuv6Ot tVG g78BUkhjBBGpsOM8OZd k5KThZw 42sxrSvWZwMPVT9ebw9fYmOyn RGT53 PXJuZFZTNB93uzDERFjGatnqbK4jBkuKqAkT eB N8zrCw3EedbUnWPzTxc2xR3VHxBJqfqfR5D qvtBcF KGuFBuM7rf7FavhHTazyq', 43, '2008-07-21 00:57:29', NULL, 43, '2008-07-21 00:57:29')[0m
+  [4;35;1mMessage Load (0.000704)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mMessage Load (0.000721)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mSQL (0.000669)[0m   [0mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000173)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012631)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000386)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:57:50', '2008-07-21 00:57:50')[0m
+  [4;35;1mChannel Columns (0.002670)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000383)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:57:50', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:57:50')[0m
+  [4;35;1mMessage Columns (0.002431)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000623)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 44) [0m
+  [4;35;1mChannel Load (0.000895)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 44) [0m
+  [4;36;1mMessage Create (0.000303)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('Agfv9JO8mpnVNbS QCfdduRhLafaCdmy3qp4EHPE4yyJf35pBG6KdAF8fZWhZm5pOH9XR2 xeZvFmMapMaqX9JCNwL5jcydSLmzVw9BxP Cr5JFNq PO 8enQkUys4 SsuECtmeQemNLwKFp995nB xStVtb55mMDbxc8RuuJHkhyJcSab8 Y39q3xJtA7j9kg76xr36 ZvVuqL7qmsaWYGCMhXuHgweJsDVrxAU5 KPjqLQtAOC QDDgdTu6v7R9NcNhAdpAbrRGCUH8Pr TLzgDdCMXcbLDTUPsfjkQR CNObMQNfJG3Wu7FHc77ARreOVu ZBMCNUD3RHkOBqmLULt5d6jNVaChQgtYF pkWPC YhFwqNeNY4 S7VMeKdCUPv jhdypRDWkJpA 3k WaO seGZdQa5LZ4mkWEpp4ABVjpqeJX jkTyeGjz3zyQHda4BKETunEtPYBmHMawW76ZGQKu8BS yxkgFpYnkss5VqneSD7tPFNfFc4sP4MBEK3Yjd S7yKLcRNhQcA6fm3XJRgNssWVgqR6qsqGjGwE7FvVrRJRy98ebs grvbGf6Z5PPa2', 44, '2008-07-21 00:57:50', NULL, 44, '2008-07-21 00:57:50')[0m
+  [4;35;1mMessage Load (0.000568)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mMessage Load (0.000724)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mSQL (0.031006)[0m   [0mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000172)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000161)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011971)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000354)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:58:09', '2008-07-21 00:58:09')[0m
+  [4;35;1mChannel Columns (0.001975)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000465)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:58:09', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:58:09')[0m
+  [4;35;1mMessage Columns (0.002046)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000535)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 45) [0m
+  [4;35;1mChannel Load (0.000542)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 45) [0m
+  [4;36;1mMessage Create (0.000251)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('7UXdzMc7HgvvFkm65Ojp4FOx6Z9m HuazqkK4QTPSeLN8SWtLX2b8bb F8qNbv F88w3 pxTFrAhyOnMutJMDWt5th ThguKrDpU 4VHUttLmO6QJD wBbkzLGj dsS47FSLdAQHx 2NKTCBQbEdhn3 n4BS5UvBPYOYF6 Qz BVYmrNCnq7LM cga3FzxRtDbm5VTqvtTUAGf qx 3 xsbv Hs abuqQyVx YKvtfy Jhe7 3EqjJ hAEnKb5haprEVW', 45, '2008-07-21 00:58:09', NULL, 45, '2008-07-21 00:58:09')[0m
+  [4;35;1mMessage Load (0.000598)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mMessage Load (0.000729)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mSQL (0.000685)[0m   [0mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000144)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012483)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000363)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:58:27', '2008-07-21 00:58:27')[0m
+  [4;35;1mChannel Columns (0.002645)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000329)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:58:27', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:58:27')[0m
+  [4;35;1mMessage Columns (0.002401)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000663)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 46) [0m
+  [4;35;1mChannel Load (0.000937)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 46) [0m
+  [4;36;1mMessage Create (0.000323)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('jNxRX5GsnYCLZPBvxQxCFHXPe2Kr wDAXpWKjhyvBXqscWb87G p HFAHdLy7W AcZQGM8r9qhR uEAA YrDSa nFU5fkn g esdnCKgss t 26Vaq Z8fTYkH aCXvF2KZwxMnuftMUyPcq4Edk p77YRNaGCWrGMGNsQ7PALv24pjqyJ9k pkExemGDeRrb2f 24n yOjC8e3zk cM6EjBmhsWA jRmgE3B23BVFExzOTUJU78wg2h7fPWY TyM2uk5UwQdtyvfjPnUH3TxhGuhZnu3gO QWqcM26U Pssth eLxcfBD mPNOxvNuvnEObLWkgQBaGLbQWTnjwxJC2 tmuO9ERPYm YMkTFqsbH6 jQzOJ 7OrNFGWWVwOrk3R2KmEW9 RwA2Sq4b63 F wq2AE7ttP4Chj9MLvVSKvMvNs3f2fWaM5akYN3Paf q4Wz d7nq9bvwWPPwNmvcjfd 97AFwOnVW4PHDc5Y4y8jA47veByFh7bUT5QRgwG6YtyrZ3RBbLeFnnDGkE4YkdhQSOXaCBxS nLjfvyaM vF5ZwdKm2FzD3nYMC', 46, '2008-07-21 00:58:27', NULL, 46, '2008-07-21 00:58:27')[0m
+  [4;35;1mMessage Load (0.000722)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mMessage Load (0.000541)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mSQL (0.000676)[0m   [0mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000174)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000127)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011950)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000452)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:59:03', '2008-07-21 00:59:03')[0m
+  [4;35;1mChannel Columns (0.002261)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000259)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:59:03', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:59:03')[0m
+  [4;35;1mMessage Columns (0.001886)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000465)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 47) [0m
+  [4;35;1mChannel Load (0.000531)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 47) [0m
+  [4;36;1mMessage Create (0.000244)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('ThOwWbv 6aP KZ3aXes TNDJ AMD2ArVNfAHmSE9ErGvpqRmgK6shqzPx5vMmNThuFER3e3uqHEzQ3bBPOjkgQGO7S5hS zuUXfgrGzhXAH29aE8 627YArK5pEaPnuP 3t2eL2CvuRy3A2nG djN9hhYdssSPyne8v7 9jcCnSbw8mV 53 bgc5LpFT8jJC3aPgzFuH yO3dMH9pRWVbQuLwBCOH3EUkABt8mRMJrT48 VtvN3ecyzktpxMnZBBQavrmGURw68QZd7989msxmOMTYKvCYR9xJYW gJqcGXq2LZfsdZXQPYcAGQPArxyZUanwPAV 7DZStDYtQev6OqLYQPPQHJ74euWcJ5QCLC355RFD9OHDuUMQuv6CShspK4qyc359BOXPL9BR sUKLxdDzYOmEdr5nFXwV82tpx h EbAGXKrVYzhfugvF 4f9uhRdqMxqcZh6JpBRrEOfUNtrL8cEFqxRbNcFhH8GyTNb3Nbdec4VJKRUB nArp T h8YTkYcKNgQY mjnaLysGQVO Dxz VrMpQsB zyLwkU4mTLC hONQYcPuWadmj5gkqnQSDKQjGGXT LgaFCFFMTOVnBrHNRFVmzXaRtavNbtUdYzKnCDd77jnVqzcuGHeCOZQE84EYHEawzLFtkhHr5SZ5XvpBCY2s3XYAO7NNj9Y2GBvZuZfJQQTht Wdb9X24uEK3Jsfdm3jvVZLMpmmbvFX8fyzpJzrQDGYKjwYabXFpFYe6gYNx3 MezVvx6fC6GQdeyNgaTwgWGTt', 47, '2008-07-21 00:59:03', NULL, 47, '2008-07-21 00:59:03')[0m
+  [4;35;1mMessage Update (0.000383)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 00:59:03' WHERE `id` = 37[0m
+  [4;36;1mMessage Load (0.000601)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mMessage Load (0.000544)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.000733)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000173)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000142)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011924)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000379)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:59:22', '2008-07-21 00:59:22')[0m
+  [4;35;1mChannel Columns (0.002627)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000455)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:59:22', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:59:22')[0m
+  [4;35;1mMessage Columns (0.002459)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000746)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 48) [0m
+  [4;35;1mChannel Load (0.000788)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 48) [0m
+  [4;36;1mMessage Create (0.000307)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('9rfBCT9H8vswQGYE4PwnSwQO LPrMMfLDb28nwJWMtLCb6SVb fgFrvkR byexQqCkarZMSQDO6r3k5mMf7WAg3rtvgw4uOzugC2fbnvYEJMknxDg6FFc5kKpTCJkeTRaEzZznB8ubkJPP nROdOShn crxg2VX M Jt G9uO dXG9NzukLBHYWwF9kE6FgMVP6v xYUAtM3GSFfG DV8zPs AJqOsRtQZG5h53PHfX 49L9k7 aGLU 7gS7zyNkFRLnz yhkhdMaBd34Dj34HXdKJPUnf7LyeRPMvrPVZV4STBXSCGaQrGtdWJUkahZsWaNws8bzgP6S4bWZ hvKsm tCkmhFB7rL6sYssBWa ScAwLK2TEyUFvvgB7bJq6Wb O RpMhqamznpLvuhwftB4UyfsFD5A66k zfAYdnZK6nesYpVZTU tuyNA5YcbFUDLQ9hRA5T5VXfywaTD2BWheW2vv7HbdqKhzT6XS z7 qxvCSfqVHx OLcdfJrFZ24FakTZSRnng33cyNne9Pjuu WD9CXdKWHkvMG2vKGkVSTDM 66WZmhX XaTcD3jjcQVtCNCTHVnkvXpT976yG tWbpGXP6TSOkQ3X2hcw3D gHc7NycakHeuk3fqucskrxwM5Jqemrxt6sCLKgQy29DWG9P AebLDFbVOuvZUDm rv4s ND3U5RUccHBYTAqJJRJtHsed fG3TQuLwGzrt7RRuzUvTZXkBqZ9BEHrWpdrdPUTAFU 8 C4AqZNRPYUE kbu93jYGOyd5gkdptz6wL cUHwgEqYC6BZdAfgQwPUxTCy 8Ya nHzB4 3Dz657ku62ErkHCRPhK', 48, '2008-07-21 00:59:22', NULL, 48, '2008-07-21 00:59:22')[0m
+  [4;35;1mMessage Update (0.000368)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 00:59:22' WHERE `id` = 38[0m
+  [4;36;1mMessage Load (0.000598)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000202)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 00:59:22', '2008-07-21 00:59:22')[0m
+  [4;36;1mChannel Create (0.000193)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 00:59:22', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 00:59:22')[0m
+  [4;35;1mNickname Load (0.000431)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 49) [0m
+  [4;36;1mChannel Load (0.000520)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 49) [0m
+  [4;35;1mMessage Create (0.000195)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('5bcY 8pmMOSv QtQZ4HT2BNrQVL92QGjy aJ6UAUM x9dVPeWENKCJGPMNzyc46kCsKrv3ee9XAA88d97nDe4 kY UBNxBKT7U4eeLfxjZjq5 njRhub6fSyLM3Fu3X8yW fmEMGgfZR3hc8Vs3t6baT rD4NmtXKzeratNvFkRaYBDxx', 49, '2008-07-21 00:59:22', NULL, 49, '2008-07-21 00:59:22')[0m
+  [4;36;1mMessage Update (0.000211)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-22 00:59:22', `updated_at` = '2008-07-21 00:59:22' WHERE `id` = 39[0m
+  [4;35;1mMessage Load (0.000560)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.027555)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000123)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011990)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000366)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:59:40', '2008-07-21 00:59:40')[0m
+  [4;35;1mChannel Columns (0.002608)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000620)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:59:40', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:59:40')[0m
+  [4;35;1mMessage Columns (0.002463)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000615)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 50) [0m
+  [4;35;1mChannel Load (0.000745)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 50) [0m
+  [4;36;1mMessage Create (0.000349)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('8eDBF9DzaAYyHsKdt7q8WbQjn wEQwgyATtjAvNE3 hL4Em dMmHHdxU4be64A A', 50, '2008-07-21 00:59:40', NULL, 50, '2008-07-21 00:59:40')[0m
+  [4;35;1mMessage Update (0.000376)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 00:59:40' WHERE `id` = 40[0m
+  [4;36;1mMessage Load (0.000600)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000233)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 00:59:40', '2008-07-21 00:59:40')[0m
+  [4;36;1mChannel Create (0.000192)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 00:59:40', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 00:59:40')[0m
+  [4;35;1mNickname Load (0.000416)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 51) [0m
+  [4;36;1mChannel Load (0.000522)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 51) [0m
+  [4;35;1mMessage Create (0.000200)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('tC4PsJL5WDL2x nXSxOttPH3 HMtCkPN LYDtKS NzyDNbMtH6htEJm7OCJ5d7gy7Cp caE L5LytAnNSStHncLndh nfSQrKjy y6KDLG 8c7s qZOhyXFdtyfmza3g4H8MX', 51, '2008-07-21 00:59:40', NULL, 51, '2008-07-21 00:59:40')[0m
+  [4;36;1mMessage Update (0.000217)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-22 00:59:40', `updated_at` = '2008-07-21 00:59:40' WHERE `id` = 41[0m
+  [4;35;1mMessage Load (0.000560)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.000779)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000173)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000142)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000123)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011671)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000748)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 00:59:57', '2008-07-21 00:59:57')[0m
+  [4;35;1mChannel Columns (0.002590)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000351)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 00:59:57', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 00:59:57')[0m
+  [4;35;1mMessage Columns (0.002477)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000622)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 52) [0m
+  [4;35;1mChannel Load (0.000753)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 52) [0m
+  [4;36;1mMessage Create (0.000364)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('b6gEtR24V6e8Tb8uLACLN4fqVTvD nASXeYsmtxTrcePnLEzQpFWtcKMX7a8Pjdu2Sgh8qyZYNPfxNGkjFOPKYhm33rKqhZn tseumaW PMQOYfVrHfKvpMgDFn Kev KAWhTK7v9wSY97kj65Ba3RfajK rjWZq85jXnCWjXTxOQNefh9dKYamYwzBmBgJREgRZxKMQtbjchpfE3EJas5A cPm3zBRvmL4z54NUmpDLapaHRQV U7 tx JYfbEuxWU2HyTkTVkrh4FWeUQ79rUm3L ', 52, '2008-07-21 00:59:57', NULL, 52, '2008-07-21 00:59:57')[0m
+  [4;35;1mMessage Update (0.000375)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 00:59:57' WHERE `id` = 42[0m
+  [4;36;1mMessage Load (0.000601)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at DESC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000212)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 00:59:57', '2008-07-21 00:59:57')[0m
+  [4;36;1mChannel Create (0.000185)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 00:59:57', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 00:59:57')[0m
+  [4;35;1mNickname Load (0.000408)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 53) [0m
+  [4;36;1mChannel Load (0.000511)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 53) [0m
+  [4;35;1mMessage Create (0.000208)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('KGXAe5yZG9gzF8yYumgzqH4sPevRsjbPAYKFAabGFT 2shZN t8uwBjZ8OkQbLR hmtQ wn7epHjLBMYOKu7 DmPS9W fFYRk7pWLTZJpg DwZsLh PH5qSqXt96wT GtJ8MPQDB GfaQwRMpqPNLRk9As SvN N4xtyRUk4KTZDtbdBr5Z88fgtu6pOdyKy9Q c59dqx9sRG9TcOr uC Ebm 8Fy Kq5q 9GKc822 LmvGjxAfK4b9xefQaB65cc5fkA uwwWyaZhKOeKE UrHhws9ctF zkV HA SOLNCOaNrAeEFZZptWaVaOrqsezZpjhqEfLy38jTBAPwdJYcLjOVt Bhh4PPKVxQt3huv7KH tUShDEkUrzHUGpFhBA5Ut', 53, '2008-07-21 00:59:57', NULL, 53, '2008-07-21 00:59:57')[0m
+  [4;36;1mMessage Update (0.000232)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-22 00:59:57', `updated_at` = '2008-07-21 00:59:57' WHERE `id` = 43[0m
+  [4;35;1mMessage Load (0.000567)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC LIMIT 1[0m
+  [4;36;1mSQL (0.113632)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000172)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000141)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011847)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000380)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:02:09', '2008-07-21 01:02:09')[0m
+  [4;35;1mChannel Columns (0.002521)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000482)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:02:09', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:02:09')[0m
+  [4;35;1mMessage Columns (0.001875)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000462)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 54) [0m
+  [4;35;1mChannel Load (0.000521)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 54) [0m
+  [4;36;1mMessage Create (0.000208)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('NEAMX', 54, '2008-07-21 01:02:09', NULL, 54, '2008-07-21 01:02:09')[0m
+  [4;35;1mMessage Update (0.000391)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:02:09' WHERE `id` = 44[0m
+  [4;36;1mSQL (0.000691)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000758)[0m   [0mSHOW TABLES[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000196)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000142)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011748)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000343)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:02:20', '2008-07-21 01:02:20')[0m
+  [4;35;1mChannel Columns (0.002101)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000288)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:02:20', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:02:20')[0m
+  [4;35;1mMessage Columns (0.001912)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000480)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 55) [0m
+  [4;35;1mChannel Load (0.000544)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 55) [0m
+  [4;36;1mMessage Create (0.000243)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('D7xSHLZ2rqFW9Mm hkvRAxYKbrXKE7qkC6LgcL5E2bfknPtHUkhebOJNJRDz ZHqVaW996VjSYekjwJhxuUB5MLwjf Kj q9DSr YStUTCAfpswcHHF6t2VBg43yvAMEk2FqzYaGKsh4NW2Mn8rVwOq6OAv PXa99G722hqSbZexT VAMFHORaP3nGVX7QG9sS5MMeSGRqedfN pW2S 8q6O43aVvNQeXusFcY6aXywwfsWMxqpBkumKvrWYVpTpbtFq24n4AzReLdNGCvCOh7U3qNTugRSgpaHXQZh2hRJQZsOK9GLvQZ54pntRR8JKJ8ewrw28qvV Tc9MqsYNcBOK4LVEARGjWpE5ZX jd2x7CKW nm2JNeJFrQQscrDfJkgcRrUkUYNFPE8 AMp7nytzeYcFRHzrCfqxtv rsEkGG8MvORTxLHTrb7SG E UdPBgJYkMjhXSzVW68RX66tKOHenywERNEtFcHdWpBJGewzSZNhwOEXqO5szJxryfAZsEuSUHzPPhzFhxjNaEaJwXz eCYmG ONXyZXcVhrbNbdgXr6Dav6K jdjOrBGtKaAM3 eE2KHvpq2gNPhbmFeMrfH26JECYJWmLe8O u3bZXHD4k7Y8NZ 9tY zKxk zjQeazKP24p3k6LJPaNu6NgwkD ky FrSGxjqH3 883YYptH4pnQZSa trEYCQR8C2XN9UAap9MCxBJ26rpNMJx2a szzgbcxP7UTDn6KTWt6nNapaPP PHzRNdQ8Xxg9E36jdpJAGjhxd7zYYKLPxsRPEVY4ChR5e khNKaV67ftq92fVMX wEHFgK cwkSs4O8Z923 qaGbb54KqdH2AcOMg O TS5R84jyNGF4fw4kmkxdP6YP nkXBKfWap42ub', 55, '2008-07-21 01:02:20', NULL, 55, '2008-07-21 01:02:20')[0m
+  [4;35;1mMessage Update (0.000458)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:02:20' WHERE `id` = 45[0m
+  [4;36;1mMessage Load (0.000627)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mSQL (0.032873)[0m   [0mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000142)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012061)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000379)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:02:41', '2008-07-21 01:02:41')[0m
+  [4;35;1mChannel Columns (0.002426)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000290)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:02:41', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:02:41')[0m
+  [4;35;1mMessage Columns (0.001904)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mChannel Load (0.000593)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 56) [0m
+  [4;35;1mSQL (0.000580)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000134)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000342)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:02:41', '2008-07-21 01:02:41')[0m
+  [4;36;1mChannel Create (0.000404)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:02:41', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:02:41')[0m
+  [4;35;1mNickname Load (0.000578)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 57) [0m
+  [4;36;1mSQL (0.000695)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000207)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000305)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:02:41', '2008-07-21 01:02:41')[0m
+  [4;35;1mChannel Create (0.000225)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:02:41', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:02:41')[0m
+  [4;36;1mNickname Load (0.000518)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 58) [0m
+  [4;35;1mChannel Load (0.000526)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 58) [0m
+  [4;36;1mMessage Create (0.000212)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('FXHfxcOGM7fKkPVvFAkdRnPYCxNwUtNFCh5zHABNfx9ZLT 6sKCTHsUy93ZA6dyd88DHqWx2pvajMb7O6 tBOZ5BeOyFcDhYOwXYXTEFU6wFb9J34P4XdQT8MZM5PP9OdpYJHrPkj5ahbeFrunLAt3 bLMpqEW38SnJY9LVQfDjxTnVtYJB duMHVpCzzneUsZJ jLROR PL jNaEQjTWe ZZGCTpyHxWYjmbDydeRzAsyOxQjH6OdrNPBS2xC SQ5PL9tCTwaBtNq VtCEJj8wjaHgUujaOZyt94g95wRvj5DDch2nP73Jf6yPx57zcgr3KCKU8hDyjcncDrqFBthgRFjbzmVTvMkLC', 58, '2008-07-21 01:02:41', NULL, 58, '2008-07-21 01:02:41')[0m
+  [4;35;1mNickname Create (0.000173)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:02:41', '2008-07-21 01:02:41')[0m
+  [4;36;1mChannel Create (0.000182)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:02:41', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:02:41')[0m
+  [4;35;1mNickname Load (0.000401)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 59) [0m
+  [4;36;1mChannel Load (0.000513)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 59) [0m
+  [4;35;1mMessage Create (0.000188)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('dCkOR OpdR3KwE6VyR34X6fU8uj5NwX Ax6e4jFCw7nzU 2j99ckpBjaFy4hT55WXwYkP8 5 WPRjuxkxufecONz4TW3Th83GzBtYscjMbxMRrpad pCFBg 5O Pba Z', 59, '2008-07-21 01:02:41', NULL, 59, '2008-07-21 01:02:41')[0m
+  [4;36;1mMessage Update (0.000372)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-19 01:02:41', `updated_at` = '2008-07-21 01:02:41' WHERE `id` = 47[0m
+  [4;35;1mMessage Load (0.000640)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC[0m
+  [4;36;1mSQL (0.000698)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000267)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000375)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:02:41', '2008-07-21 01:02:41')[0m
+  [4;35;1mChannel Create (0.000267)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:02:41', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:02:41')[0m
+  [4;36;1mNickname Load (0.000636)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 60) [0m
+  [4;35;1mChannel Load (0.000730)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 60) [0m
+  [4;36;1mMessage Create (0.000290)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something http://www.google.com/something.txt, what do you think', 60, '2008-07-21 01:02:41', NULL, 60, '2008-07-21 01:02:41')[0m
+  [4;35;1mSQL (0.000693)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000213)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000348)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:02:41', '2008-07-21 01:02:41')[0m
+  [4;36;1mChannel Create (0.000313)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:02:41', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:02:41')[0m
+  [4;35;1mNickname Load (0.000527)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 61) [0m
+  [4;36;1mChannel Load (0.000524)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 61) [0m
+  [4;35;1mMessage Create (0.000198)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something: http://www.google.com', 61, '2008-07-21 01:02:41', NULL, 61, '2008-07-21 01:02:41')[0m
+  [4;36;1mNickname Create (0.000193)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:02:41', '2008-07-21 01:02:41')[0m
+  [4;35;1mChannel Create (0.000178)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:02:41', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:02:41')[0m
+  [4;36;1mNickname Load (0.000400)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 62) [0m
+  [4;35;1mChannel Load (0.000516)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 62) [0m
+  [4;36;1mMessage Create (0.000184)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something else: http://www.yahoo.com', 62, '2008-07-21 01:02:41', NULL, 62, '2008-07-21 01:02:41')[0m
+  [4;35;1mMessage Load (0.000560)[0m   [0mSELECT * FROM `messages` [0m
+  [4;36;1mSQL (0.022360)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000314)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000399)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:02:41', '2008-07-21 01:02:41')[0m
+  [4;35;1mChannel Create (0.000333)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:02:41', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:02:41')[0m
+  [4;36;1mNickname Load (0.000463)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 63) [0m
+  [4;35;1mChannel Load (0.000526)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 63) [0m
+  [4;36;1mMessage Create (0.000232)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('GzKB EdOtPvXLzWqXmpUeEdEJC n4 Ocn hCELkQjMnTa dstxS4v RSmVLHg6kzaSL4D5TE4ncrBbdD5AFRCGA7BF3rAjtbMSfJLyc8S7vOyj3ns88TOJYQeNWjCCayurQrvY8PWdqTSUQMMVJ3tCXYFtrEEu72C2RrJSYESW5JVDBOMzVbJcf q752ZE3MaA5Z46mD 4f uEOD7kyv8buT6xZJZXy9p37gahVVZVcjXturgpMw4HPretLgEB4btfnYQDCWa wT2YvMTQj39PWjHnTObzJtCWLf9fgGY5FE8VQ8BbEwcn2cVvy Dkpe4XLhQpC LN2VDqdwsn CkHG HjzZAGTgOezEn yJk BEUyPzp7KgbnP6 cZWJJR59 qwjFc6FnzBj94XSNOzJOXpYLwAvQsEb5 GCGSOhwtgbTTNbT6xGdvxhjnfzLhSLEhrrRf6RugqA5ekd89KmW7wKXH77L8BMRvd7UKJuVU4 aXSyRmqmgGLJq9wYmQyhk2Df5LTfrYg3Z4uhpARg7jz9prrBcw4yw 63W6scyR9Ns9AgPvM6rexzYGX ZcgPwpVD6BdPCStCwKbpztZZ 6s2Tb4 Q5qMyaW RHuNNBPYbgxpUpwY4gbTVY BDK EmOxPJGYV7sqdzHx2HRHsRER3Y7VNYDxzGgZTCu2Edt zaKXMVgqhqsvm XfAHua6bm7OOD4VMS7DcwZAXApkHGmKqawOh4MgNWxvXh8GN9QHph39mQfLqpkx79 xySgfnjHLJpF 6ugTx', 63, '2008-07-21 01:02:41', NULL, 63, '2008-07-21 01:02:41')[0m
+  [4;35;1mMessage Update (0.000418)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:02:41' WHERE `id` = 51[0m
+  [4;36;1mMessage Load (0.000534)[0m   [0;1mSELECT * FROM `messages` LIMIT 1[0m
+  [4;35;1mNickname Create (0.000192)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:02:41', '2008-07-21 01:02:41')[0m
+  [4;36;1mChannel Create (0.000188)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:02:41', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:02:41')[0m
+  [4;35;1mNickname Load (0.000409)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 64) [0m
+  [4;36;1mChannel Load (0.000510)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 64) [0m
+  [4;35;1mMessage Create (0.000213)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('5Dgqakmufv8gOhDO6WtpR4GFVAZDup6LrC22TE7Zyse7WETxBWqYc795HEt4WE kdOE 276aw3 TwGcv8 3OpNRnYLcA7Odd rJ AqPsR2WZQs w yn z5C7rXKyFWrknA CD9 T MObVWzM5qFLXCeCkAge3mHYAN5t S OfxdESkh3gsQrvd7Pcwr SeO9x2 xOPLRL DNVZkAhKjPZhM2y Wkp aRTS4O7Ur nRcuhDbtBySavOZTj WekVJ6D4LFWQuGuyrgx2z7VYka9RLvZtZpACvQYSAbVLNsyOYbwWWQAwyxEx7MzdT6WqQc4mYrVjYybcf8FzeP 2jPYfYrAzut5MgxXF8NFsCk6EUxfL5k p4cu6PWCPRPpdCqDsEPOMF2 HnHbaj6qxWAPu3E5A44dn7TKyYpSXws6rw4qeC6zPCtUeDPjRjYvae2fLgz8MncqCJwdgzGvJthRAHmTUkDF6ZzJmsNyYMqFc7UUA7 mOP5W9TrYOEBU3mM5 L jAxaS37VvzTuvdpvW4jNGdacWfZ6HeEL8J2quv5RFnpkt6QQxah7Sj6e7MwSERY 4AMQ3c Ry 7 dGzEQbrvZtDfb29MzZxJvnOhDV 2kf', 64, '2008-07-21 01:02:41', NULL, 64, '2008-07-21 01:02:41')[0m
+  [4;36;1mMessage Update (0.000205)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-22 01:02:41', `updated_at` = '2008-07-21 01:02:41' WHERE `id` = 52[0m
+  [4;35;1mMessage Load (0.000512)[0m   [0mSELECT * FROM `messages` LIMIT 1[0m
+  [4;36;1mSQL (0.000722)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000610)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000375)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:02:41', '2008-07-21 01:02:41')[0m
+  [4;35;1mChannel Create (0.000212)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:02:41', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:02:41')[0m
+  [4;36;1mNickname Load (0.000467)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 65) [0m
+  [4;35;1mChannel Load (0.000515)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 65) [0m
+  [4;36;1mMessage Create (0.000227)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('gxRM53ZUnCyRv5ScpXdDnhtFEpyJaO 5qjG u83Ye7TJLFdqNDWFQ5OEXwvAMq6 wA5 n7FDAcfaLaNHw3gUxQ9MRKJrYhcsckTJ3Ed8AO7Z x8R2DVtnEuF3r Ztrs2UJZTZkbZOBDBbTAY5b5j6ShZ2kQNywdkVKk7M8OCXpaTTQs akPpCPFgkvwHwaxC6a Utd8vbr4E AWORyKt4eXjh sO4HxYMQesLY7vZM2 O5fJRD6MGzwmJWsfTuke3aF7jDkN4xO2R D NGPqHC8jqgn4m8bsv2ASjhxshHQ6cREZnvZr qhMZEVDf32z5Gf TXr2SqONbAb2ScJcQ3J4Tb7 v5uZfkYyW3U9Tr5Lg7tmgOqaVKhJQbXT 82nfPR79vphWFSR2BaNzvCbe2ChtU2Mm36WpQsX7e3Hd87bWG 3qXt2R2kP4YKS 86ZtWuP254NzTmWL7 E3y8FavF VLr 9az rfcACXdA pwrf7OjRrKsGW7CR8kXqyjU C3Xh g 6pCr dusXReN TgSd7xXOayMjO6K bSSgkATeG3LRQ nJFOG3pcjvzGw5s6N4ebHcRRRgNN7teXUdUKKFpCBs8SxWvYQ3MfaPtU9gmvcvUjPkOq', 65, '2008-07-21 01:02:41', NULL, 65, '2008-07-21 01:02:41')[0m
+  [4;35;1mMessage Update (0.000266)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:02:41' WHERE `id` = 53[0m
+  [4;36;1mMessage Load (0.000536)[0m   [0;1mSELECT * FROM `messages` ORDER BY messages.id DESC LIMIT 1[0m
+  [4;35;1mSQL (0.000902)[0m   [0mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011626)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000401)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:15', '2008-07-21 01:03:15')[0m
+  [4;35;1mChannel Columns (0.002194)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000253)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:15', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:15')[0m
+  [4;35;1mMessage Columns (0.001876)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mChannel Load (0.000592)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 66) [0m
+  [4;35;1mSQL (0.000570)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.001234)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000288)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:15', '2008-07-21 01:03:15')[0m
+  [4;36;1mChannel Create (0.000196)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:15', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:15')[0m
+  [4;35;1mNickname Load (0.000452)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 67) [0m
+  [4;36;1mSQL (0.000739)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000174)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000230)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:15', '2008-07-21 01:03:15')[0m
+  [4;35;1mChannel Create (0.000184)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:15', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:15')[0m
+  [4;36;1mNickname Load (0.000441)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 68) [0m
+  [4;35;1mChannel Load (0.000522)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 68) [0m
+  [4;36;1mMessage Create (0.000233)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('tWm7aQprunP4nxDzJQWKnN28kYO M54QE5VHccZM F8rJvkd3R5C2DAvk8Y5cm8tAU2xHa62Onfga8qj7pc3WktOzNwtMdKPUh3 mqum 8zznNpznc B nVWVhDLLUq7 xEeXcXM5T5357 NhYULBF v2JTnPP8uhXVcXDxEJ f9FcVfY6nNrLfvWhNaWFM bUbByAbnSy7pUVYyrVqZHfGnkQwaMk qcDsNsPLvKpmMTXrKKJBufZ5q43sNjDkBV9Cf9mqWR6eMWAtJnkRfsLdgQ XFSFdsUDMaFd hQDHQr2 P93f kvGtV RkTab cutJaHeBUBznr pEu mrykQN5G7', 68, '2008-07-21 01:03:15', NULL, 68, '2008-07-21 01:03:15')[0m
+  [4;35;1mNickname Create (0.000214)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:03:15', '2008-07-21 01:03:15')[0m
+  [4;36;1mChannel Create (0.000187)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:03:15', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:03:15')[0m
+  [4;35;1mNickname Load (0.000511)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 69) [0m
+  [4;36;1mChannel Load (0.000598)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 69) [0m
+  [4;35;1mMessage Create (0.000329)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('H23jOSR ME6eguU2D Z', 69, '2008-07-21 01:03:15', NULL, 69, '2008-07-21 01:03:15')[0m
+  [4;36;1mMessage Update (0.000360)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-19 01:03:15', `updated_at` = '2008-07-21 01:03:15' WHERE `id` = 55[0m
+  [4;35;1mMessage Load (0.000643)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC[0m
+  [4;36;1mSQL (0.000749)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000172)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000280)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:15', '2008-07-21 01:03:15')[0m
+  [4;35;1mChannel Create (0.000249)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:15', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:15')[0m
+  [4;36;1mNickname Load (0.000490)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 70) [0m
+  [4;35;1mChannel Load (0.000522)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 70) [0m
+  [4;36;1mMessage Create (0.000206)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something http://www.google.com/something.txt, what do you think', 70, '2008-07-21 01:03:15', NULL, 70, '2008-07-21 01:03:15')[0m
+  [4;35;1mSQL (0.000699)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000276)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:15', '2008-07-21 01:03:15')[0m
+  [4;36;1mChannel Create (0.000253)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:15', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:15')[0m
+  [4;35;1mNickname Load (0.000496)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 71) [0m
+  [4;36;1mChannel Load (0.000547)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 71) [0m
+  [4;35;1mMessage Create (0.000203)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something: http://www.google.com', 71, '2008-07-21 01:03:15', NULL, 71, '2008-07-21 01:03:15')[0m
+  [4;36;1mNickname Create (0.000198)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:03:15', '2008-07-21 01:03:15')[0m
+  [4;35;1mChannel Create (0.000182)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:03:15', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:03:15')[0m
+  [4;36;1mNickname Load (0.000440)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 72) [0m
+  [4;35;1mChannel Load (0.000520)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 72) [0m
+  [4;36;1mMessage Create (0.000195)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something else: http://www.yahoo.com', 72, '2008-07-21 01:03:15', NULL, 72, '2008-07-21 01:03:15')[0m
+  [4;35;1mMessage Load (0.000545)[0m   [0mSELECT * FROM `messages` [0m
+  [4;36;1mSQL (0.020509)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000278)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000350)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:15', '2008-07-21 01:03:15')[0m
+  [4;35;1mChannel Create (0.000214)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:15', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:15')[0m
+  [4;36;1mNickname Load (0.000470)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 73) [0m
+  [4;35;1mChannel Load (0.000536)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 73) [0m
+  [4;36;1mMessage Create (0.000266)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('y7RKTB4X3T8TKY8 SdNZSV2BY7Nq8QyRCFeWy XEaX925NUp6 9brcqWK 52KMMeQCRhVXvfzjfCL4fGtAhuCG 4S4Wmazb3BtV W5uq m3VNwyKHZt2V32 qh4GLwRqXL4P U23Ng3Tu c2pP2v5JyOCEcH7mYFzJnAGgBDU JXk7uDe6EQ4 PC3En7Z2Ah dWDb xmFaT 2MSff98JwXS8XDgcfQUuq z TdhgyFk6H qPg8 D5z7Dh9N5cDZ LFmZbOeykJCRWGR x3 NDXgjFb2tVC4KTKMTX6OUs4Nud7yzZ LazmE5f4SRK r8uaf5FVZMpTUkvXf3p4x77kjNk6kf6AqvzfKvMptShA3KsyTuc9YsU5WESVHJs7fyKNLa ef 2CaFSu993SO5egz geG dJJWtKc aMRDdV2S3tBhVR4yfAPp hKcPWxb6mOPWmHSJ2MCVtRtnhrf RdnFWr TnATTW Xzmc HXk823YsZLJrBPJm24xCJVd4xQeyz6mNT7MwD5rAO7TkDVEtJAvNw5', 73, '2008-07-21 01:03:16', NULL, 73, '2008-07-21 01:03:16')[0m
+  [4;35;1mMessage Update (0.000244)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:03:16' WHERE `id` = 59[0m
+  [4;36;1mMessage Load (0.001055)[0m   [0;1mSELECT * FROM `messages` ORDER BY messages.id DESC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000329)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:03:16', '2008-07-21 01:03:16')[0m
+  [4;36;1mChannel Create (0.000263)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:03:16', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:03:16')[0m
+  [4;35;1mNickname Load (0.000586)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 74) [0m
+  [4;36;1mChannel Load (0.000628)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 74) [0m
+  [4;35;1mMessage Create (0.000214)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('HryCusYEzk3DLzNkLfHR2wLHcwh5x9FzumdQnybTFGDFzFTk6uQj5OqALUB9JNtrCMN8WdP3mn v GG zK6yWstt x wZMw6FHcs7yyu8HxMKycGBvN2 QxU NL4zzfJ', 74, '2008-07-21 01:03:16', NULL, 74, '2008-07-21 01:03:16')[0m
+  [4;36;1mMessage Update (0.000225)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-22 01:03:16', `updated_at` = '2008-07-21 01:03:16' WHERE `id` = 60[0m
+  [4;35;1mMessage Load (0.000519)[0m   [0mSELECT * FROM `messages` ORDER BY messages.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.000756)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000205)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000318)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:16', '2008-07-21 01:03:16')[0m
+  [4;35;1mChannel Create (0.000350)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:16', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:16')[0m
+  [4;36;1mNickname Load (0.000491)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 75) [0m
+  [4;35;1mChannel Load (0.000535)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 75) [0m
+  [4;36;1mMessage Create (0.000222)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('BmdY qUNYN4gHks7Vx Qj26SfDd5D2M8 wvfAU4dvYbETyjLy2 49YZPZ99p9GqZu uPvpUXuus5aUhCA hP Y4mtqMGC eGzFpa2byKMwuWJfkmGRpkCUqFawz5QkUWNzX AEpczQH35JDWnbXUWvAbxNeeqbpNHr6hcRQaZhZdLJJjsQ6V6 yt4fGD ShVUJdaxUOAUbGSHb97aQ5YBg5aSj3Fn zxM ZbHDp8s M6OknAVLCpzaeB6VErJxuAR58SxD6 P j3TZcXPt LmavSryXnqAUaPa86mkGgsdNYMxWEqDC2g7BJOrC3b5UPdApMSn2ryGOH58d3AeuKQE nULqWCfpueDKMC8vW MHCp2Me8SOG 4JWN7xkE5t', 75, '2008-07-21 01:03:16', NULL, 75, '2008-07-21 01:03:16')[0m
+  [4;35;1mMessage Update (0.000228)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:03:16' WHERE `id` = 61[0m
+  [4;36;1mMessage Load (0.000520)[0m   [0;1mSELECT * FROM `messages` LIMIT 1[0m
+  [4;35;1mSQL (0.001231)[0m   [0mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000145)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000115)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012187)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000427)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:31', '2008-07-21 01:03:31')[0m
+  [4;35;1mChannel Columns (0.002651)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000366)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:31', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:31')[0m
+  [4;35;1mMessage Columns (0.002503)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mChannel Load (0.000931)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 76) [0m
+  [4;35;1mSQL (0.000656)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000235)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000380)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:31', '2008-07-21 01:03:31')[0m
+  [4;36;1mChannel Create (0.000350)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:31', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:31')[0m
+  [4;35;1mNickname Load (0.000661)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 77) [0m
+  [4;36;1mSQL (0.000867)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000243)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000267)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:31', '2008-07-21 01:03:31')[0m
+  [4;35;1mChannel Create (0.000212)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:31', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:31')[0m
+  [4;36;1mNickname Load (0.000541)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 78) [0m
+  [4;35;1mChannel Load (0.000757)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 78) [0m
+  [4;36;1mMessage Create (0.000325)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('X EK7DfqQwauus3PKwGxcM6zZyhQYbMZOWzMLMKmeu9GetH9U9nFf8VOqKcbUK6LDKDY89tBHk8nph6 GGKDhk DpWrtbTwWnJDOAM5gtkmtGxCHjhjLfzR5 h3sNt6gnbryMnSfJCr55Zj9HYrhUap6cQxujeE4Ya6EaYWOLRC7sVgZqSxZFcRTON2 4F8sU5zNWe24BrhEGpCxzXcOr2WM9dBrwFAgYjk94CpM r WJTSuRppPHMyABejOO2Ls2 esJsca7ykhfSj6UVMBR75GOXPLMJACkB4FZvHfLzVX gxgUEXSdWmp7 Wgm pL72WWe CU3hZ3xUXy7HTeBYNgrCxjAX5f655XHhahsu8NBt74KKFs bLu3 HZzCWbCCQ WRx6k hBrj Hf B7RnGWZPaG9sU8g 4ZedJzbdmXTG5YO cN7kg BYb2Uyk yUAARds MatwLC KHaeeXEhYuQuW FrE25WVk8jZyG 8C89nzNPAxxSmvVU5jtx edEMG6AndfX3P8ftWpk2F8rvDAkzHxVQ2mZwEXhNE4 WLhYMV7Y qCNLsDxPwu3zeMb7eZnzrEeRdBn5UADYAn8B7qGN RY8KYRhckJArdGfnbdeEcqkRxBMwnUw4HTbx yCRCwENCge xfkAddhSRM2jGw uAcckaanfuBkXgnmu 7CtWqJWDz4JVKN2BsVDEFyJCJrQjNhs x3ugmpDLnkLUuL8pfbqfKCSq3w7QRdnQtS76b9kNvx5f SNBnWwTJLTZ7bQwamYgVUSDbs5fJ3dXbZGybQjMnbOcn', 78, '2008-07-21 01:03:31', NULL, 78, '2008-07-21 01:03:31')[0m
+  [4;35;1mNickname Create (0.000195)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:03:31', '2008-07-21 01:03:31')[0m
+  [4;36;1mChannel Create (0.000191)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:03:31', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:03:31')[0m
+  [4;35;1mNickname Load (0.000411)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 79) [0m
+  [4;36;1mChannel Load (0.000517)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 79) [0m
+  [4;35;1mMessage Create (0.000216)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('P4B95D9WwB5ZOmNuZ5U88nCYv4Czphjpg3jGb83tDMGm4V dhbOktPQJxDerRBA4eM6d usPXx6R yGMLYudZuPbvGLaWetD8cXQ6qEqSvEY2zfV9mRr2 EsTD4Uc3OjWmqbXXOQ8fvBNqnywPqktNSxDhqwEJX7kKOpsmM68k9BUA5a 27vcD67qA78y7pkg XGGwzCOCX7FOqw25K Yvsz78qNafp6AqcPwn b6HCZ3vgzVYz7eQu YvBqQcU59h sUYCcea6 8kYNr7NTRsWWnfL8kxrT xfEEGTJxFY tk5QX78XqvdVTPs6 AzSDQsvBu8LqBstOTORTHLPCq unc4xj6rHw8DCZs7zqcxCG2yAaHcq4VJQgavAUEDdSQBVqBAFs6Pyf vjOHNkxUpS5QNKN8gyzrbv2GNxMXC 27JyZSD5b8rQC9VCnJK2Er7JRZrt9HpNvW4FyRRVXzmn 7UHttV8WCpLrBVdQCywTXOUj D3q6adRm5D86gkYFUUNEYXET9OeknJz 8GCWMHqyqWXG', 79, '2008-07-21 01:03:31', NULL, 79, '2008-07-21 01:03:31')[0m
+  [4;36;1mMessage Update (0.000437)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-19 01:03:31', `updated_at` = '2008-07-21 01:03:31' WHERE `id` = 63[0m
+  [4;35;1mMessage Load (0.000681)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC[0m
+  [4;36;1mSQL (0.026735)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000251)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000528)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:31', '2008-07-21 01:03:31')[0m
+  [4;35;1mChannel Create (0.000329)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:31', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:31')[0m
+  [4;36;1mNickname Load (0.000460)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 80) [0m
+  [4;35;1mChannel Load (0.000514)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 80) [0m
+  [4;36;1mMessage Create (0.000200)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something http://www.google.com/something.txt, what do you think', 80, '2008-07-21 01:03:31', NULL, 80, '2008-07-21 01:03:31')[0m
+  [4;35;1mSQL (0.000669)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000597)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000341)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:31', '2008-07-21 01:03:31')[0m
+  [4;36;1mChannel Create (0.000362)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:31', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:31')[0m
+  [4;35;1mNickname Load (0.000457)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 81) [0m
+  [4;36;1mChannel Load (0.000550)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 81) [0m
+  [4;35;1mMessage Create (0.000202)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something: http://www.google.com', 81, '2008-07-21 01:03:31', NULL, 81, '2008-07-21 01:03:31')[0m
+  [4;36;1mNickname Create (0.000172)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:03:31', '2008-07-21 01:03:31')[0m
+  [4;35;1mChannel Create (0.000189)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:03:31', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:03:31')[0m
+  [4;36;1mNickname Load (0.000396)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 82) [0m
+  [4;35;1mChannel Load (0.000528)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 82) [0m
+  [4;36;1mMessage Create (0.000204)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something else: http://www.yahoo.com', 82, '2008-07-21 01:03:31', NULL, 82, '2008-07-21 01:03:31')[0m
+  [4;35;1mMessage Load (0.000552)[0m   [0mSELECT * FROM `messages` [0m
+  [4;36;1mSQL (0.000650)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000158)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000248)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:31', '2008-07-21 01:03:31')[0m
+  [4;35;1mChannel Create (0.000267)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:31', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:31')[0m
+  [4;36;1mNickname Load (0.000484)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 83) [0m
+  [4;35;1mChannel Load (0.000535)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 83) [0m
+  [4;36;1mMessage Create (0.000228)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('yJ2vW MEkD3xXKyuZtxvmZZwETLTjLFCVTmQOCeQ vJaPpWZjOTgayaMktvP3TvwTSafuuh7SxaALwn dcrKM5sSPd9P GRVxbqXptPazgGseGGUVTF 5XLYFPgLDjX56 xaferUfUPCxA5a7EJZZsha86B3v TV pddrKg7QWv9jb5h pdAMGpE43HxRHyxQHVh4 KQQTb BCurgzkZ3j5QtzDyO2rtug6rqpBpB4DhudGSqaC4D6 anUqCrSdymhK 8gmTs48OxqRVwCFQU', 83, '2008-07-21 01:03:31', NULL, 83, '2008-07-21 01:03:31')[0m
+  [4;35;1mMessage Update (0.000252)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:03:31' WHERE `id` = 67[0m
+  [4;36;1mMessage Load (0.000532)[0m   [0;1mSELECT * FROM `messages` ORDER BY messages.id DESC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000203)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:03:31', '2008-07-21 01:03:31')[0m
+  [4;36;1mChannel Create (0.000219)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:03:31', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:03:31')[0m
+  [4;35;1mNickname Load (0.000416)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 84) [0m
+  [4;36;1mChannel Load (0.000585)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 84) [0m
+  [4;35;1mMessage Create (0.000215)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('hb3gtYfzagWSHsKT7FHKtM7NTnDY2E h2O95TpGKxbPTwkv7a8GTOfTVubDpMq6QUPWYD 2KmAtbZOuLFgRqLejkwC7RtdHBVZx5FxBV2qYMqw afv6kNqGjRQJ9jkKMbuMfHyUBLEe8Ep rC4bPC6 dZv6UPPySWrjDpFYwRDReexru3XCHs47K74zBKvfXk8yVP kr SPPPGRKcFEEDZhh5TVPpQyk2a3u49Ga87KSmJvKGXEFUwazsy EjbkUKGE2PUapt4UHdwaTWSmK wR5', 84, '2008-07-21 01:03:31', NULL, 84, '2008-07-21 01:03:31')[0m
+  [4;36;1mMessage Update (0.000214)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-22 01:03:31', `updated_at` = '2008-07-21 01:03:31' WHERE `id` = 68[0m
+  [4;35;1mMessage Load (0.000527)[0m   [0mSELECT * FROM `messages` ORDER BY messages.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.000908)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000142)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000264)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:31', '2008-07-21 01:03:31')[0m
+  [4;35;1mChannel Create (0.000250)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:31', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:31')[0m
+  [4;36;1mNickname Load (0.000495)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 85) [0m
+  [4;35;1mChannel Load (0.000522)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 85) [0m
+  [4;36;1mMessage Create (0.000256)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('QRAZgHecZm8Tg4UeWCKE7d2MtUweJLF 5xZHBHZUKqSDBjCtbMZVTEjBbB4OyctK DjtnvALvumSOpSh3aq27TfeUMGGTLtKU9Beuv7TAAW9 HeyHWfmgFKAB wP Q496ZVWCQsccZ8CmUnwuQH3 Wa9uzbSuYGZFdUCf 6dDDBGJs4v9vHEB5u6eEvp4fjfLK M ATJTdU9LpXPDvmxXm Hq4PxtLfVvVG5urunYOF QU fpEHXnrn86ZfUngZRbnh ZbUYv3 yYFvn3hjwUu7XvT8t cvqpTpqMPw95d2F VCQmKN9f4eA COuFSYwFq2hYHLrgYOCXnuEA9QYthwhxHvOxSwjP6e NDbZU4yaLkTF2BbpuJP fT7SjSGYgNkaMXES StU9VtRyUxA TW2HwKk2cXdmt69 JnebBcdcLH56GZEy 2uWAeqnz647fnZ 4pr vBTXHT9VCWGKKfUCX7kNHTqsqdMAjqk6uFneW 5ypguy7bRvds9ux2SsWCE79 t3QkdAmr xPctQbS2ULCwpBeA5Rumu4f gaWwLRWFfhHe9A3UcT6WkcJKMZY KOsaWVF4vsA5Sh8dCfE874ndvfmKgSRefGnAEf mFw9fSvwx ZPsvwCNPbrD9cne cT FXQTJZ4ZnanK8g2kZ', 85, '2008-07-21 01:03:31', NULL, 85, '2008-07-21 01:03:31')[0m
+  [4;35;1mMessage Update (0.000227)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:03:31' WHERE `id` = 69[0m
+  [4;36;1mMessage Load (0.000517)[0m   [0;1mSELECT * FROM `messages` LIMIT 1[0m
+  [4;35;1mNickname Create (0.000182)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:03:31', '2008-07-21 01:03:31')[0m
+  [4;36;1mChannel Create (0.000221)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:03:31', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:03:31')[0m
+  [4;35;1mNickname Load (0.000416)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 86) [0m
+  [4;36;1mChannel Load (0.000516)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 86) [0m
+  [4;35;1mMessage Create (0.000234)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('Ev2 UKfnO8VtKHuZBNuCsdAfKSL4f7jDU2q8zzumNL7U8dRajg33ZeLN5kXyLXSyVUu2UkwT4jXCFkHf76DJt4S7RbaZOJGtD5xj25tGqRWU KxE2rNgE6qDjzLwLbJQ4mhQsJUqJmaEwJr8eGCe uUgFbzgRaTexMfsWrkZH8F8ysw5rqgKVAuRSG rCLSfTe fTj7bdSNZEp6xUErPJ6 uEvzAGs6YGXnyO6Y3 mxrky2vKvVh2TxQKC7vcySx7XgtPuQ6Y JrM2k6KJ6YvctC8XcM9CrCRmMben2X rME7Ke5xzsVD jEky KbpUTGPJgc MwMCxYZOQdUanz2B2f yG7Xykx5nZHjDgEv X99Xjg4 kTfjQeEd qQk8gshQHPOG6zRwbcQ nVT2qftQLCLJ fKmwpm7KZV BUxzW Sct2qg2xRkYBbjx3xU 7zeQ NYgnO22ct289DmL98q2ZcA FsL ZD9kfNdwVLhPOESERR MQQu6bOjaWbtrX fbkvsTAJ2DO32QucGSc t eLD kRDCSu9 4dCpNwmh6y4QqJS5Z 95VHnQdjXZvctUFYuWLP9ZuhAXYgeUaEgROw9pSmGdACPCgYy8exZAd G jndHHDWbqdjDK87KrsfdYqZQM 5mG5ptrBF2GN2XK5RNxRSxRU3YG W hQm549RmcCXL Rm hHn5Xxh4bVsCR ySCZxEOAUqae9 XaJC VbPf3RET86ZVHcWQKEFC m5XCLOUgRH5tZxbRzPv7GMd7TrYZqr9bEJNRTWz9mhGvpkdZJy2HXVNfGZc6M3HERut6qPOjDT5OH3vVQXhPEStgEHnRyXmLskYfQF kOtVbuxgjPue7kea5 9RHCq mYPMg 6AUwn deQrwuNzT 6HD gGeO5ErUR3QwuW bTxz5ug2FvxLr4495xxChRs999MRuF2zDvWrjGA9Nb NRaRAEgb4M7jF', 86, '2008-07-21 01:03:31', NULL, 86, '2008-07-21 01:03:31')[0m
+  [4;36;1mMessage Update (0.000214)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-20 01:03:31', `updated_at` = '2008-07-21 01:03:31' WHERE `id` = 70[0m
+  [4;35;1mMessage Load (0.000522)[0m   [0mSELECT * FROM `messages` ORDER BY messages.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.001011)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000142)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000116)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012147)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000383)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:03:46', '2008-07-21 01:03:46')[0m
+  [4;35;1mChannel Columns (0.003106)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000365)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:03:46', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:03:46')[0m
+  [4;35;1mMessage Columns (0.002477)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000726)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 87) [0m
+  [4;35;1mChannel Load (0.000769)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 87) [0m
+  [4;36;1mMessage Create (0.000338)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('d4SLnKxqjAAJ7Km5gknM9MhSch F4BwyRCOwkCjVkCWd28JKkVqxgADk5JJ Dn33djmfQ93ky24XKgV yRu8ScwNOwBSPU7phChww f2Yn thOB2 zFTQXz6V2t2nDNn6ctSEdkUCFU6N jV A2nXG48EH6QTYYNr3GTLaqM33n43PP QDMVJMcgJrGBe SnXzQre7vPCVh5wwj8tmLwC9ytpbN 95YmU4jRm OwfGPdf7fYGCfPw4Ja9dEezBmz5 NAFdaUVYB3abYTGmUGSK8TdsOJFQubGxB3Lq QTq9jRXZcUDj2rLcXpv2PUOzpx5B6OH T4u fLFOm V699k8kY2LBCAcS k kbrTG2sPFRDfbXEz3 eS5TA jeGfESeCQwEAqAmJnBw nWUX7fRYMb Wf xNZvtxEaa2mY uDSP UAgxMQ5LOZ bkX3Jp3PbggXdbe 2Mq6S82aQXnyUGZ ejve wXr8GXE7Uja7NzH7DShDVN5aSfW eaHtOSN h7VOanyPMu26rEvnB3NEOhr4WDFBWXWJtT BGJUkZM pMcS XZbcEZP8 7OzOBZSVHJdS3HqyTccwscuLL 6sO3gk', 87, '2008-07-21 01:03:46', NULL, 87, '2008-07-21 01:03:46')[0m
+  [4;35;1mMessage Update (0.000372)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:03:46' WHERE `id` = 71[0m
+  [4;36;1mMessage Load (0.000550)[0m   [0;1mSELECT * FROM `messages` LIMIT 1[0m
+  [4;35;1mNickname Create (0.000248)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:03:46', '2008-07-21 01:03:46')[0m
+  [4;36;1mChannel Create (0.000201)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:03:46', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:03:46')[0m
+  [4;35;1mNickname Load (0.000417)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 88) [0m
+  [4;36;1mChannel Load (0.000514)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 88) [0m
+  [4;35;1mMessage Create (0.000228)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('Nwp7Ab5vDJAsRR vtLLFJyOyATk9SzPDX9J7u2EpeupsRx2fE X3Pt3dvpwzmHjeuwTN OdjJF RFX8vmBOm HjcX9fZN5Temh RNnjLBvX R8nDkC7KZ6MYpent3Ee7RGxE 99R YKG4S8emA3w8Mwc4rEbQemnR5Mzvx65 QXZSzVWBOkJnLC7Bhmuzz3qW4h38pCe9qXGwAF4RFnTBMzvm7YcNzRbe dj8tzeuZMBnB5CwZ7An8aJXEkDKccz4uf pSJWSg 4 64bfTNRFuTZ4wUswdUjX6zPZCOY3DVAT9G RdqLkJaY6KQyhUT7e yQqYcONZ6jP6eKYRUVnjAKwBzAGbdH2tDYezS7fMYawRK3wNS2BujUHB5NW9QzEcfKfKG9jHpq GLGuWBQpwssbDGr9gTcBGGuR2a5RynQ2D zQWLsFbFcbHrJ t8KAhbw6UMP L SXX67A fgApyCOHTEb5mVS yCD4Pa8g2FY5t77 qDyTq9Vp5PpaAF7VkZRsmJyTHQL qD9f897zQyU 2CdALCtdAARF8S j5eabywxjqVJTRrCqNWcxDNmwJvkp8QY ajGmwCOMETEJDMqS NjB VOWEdMqOjxXEDnJnbPZX 5gavy FVM8JXOwRR5y 4Ca 6MFrZVve bB8y4KAPChgB3Vmk9Qvjz42a8xWmrRCFeGGHeEyUx6qAS pgrgQAMaFgqGcUju86nfrwZ24SprDX TMqe2H2uKTvG6tBqyRQEg78QNb2sxHa4seZ4g 28GODFPsjvAY3f XyOQ druN4V7yKUKufH3KU6JvmFKFNCvQQHA3ZO9RmrNYLLqQYKKCu5pFqVPOKvQY7 J9WBzOSXqd5R5JvgDT hL bmzfqfNNdUn3tGZB3Oz9vTU7bpjNqtKc5euzQBUbTmuFqU b9cvyuchgbqZVVc62RgdKxh8cFXq5aCYXFMOukw', 88, '2008-07-21 01:03:46', NULL, 88, '2008-07-21 01:03:46')[0m
+  [4;36;1mMessage Update (0.000217)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-20 01:03:46', `updated_at` = '2008-07-21 01:03:46' WHERE `id` = 72[0m
+  [4;35;1mMessage Load (0.000517)[0m   [0mSELECT * FROM `messages` LIMIT 1[0m
+  [4;36;1mSQL (0.000764)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000205)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000136)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011555)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000365)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:05:09', '2008-07-21 01:05:09')[0m
+  [4;35;1mChannel Columns (0.002000)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000277)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:05:09', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:05:09')[0m
+  [4;35;1mMessage Columns (0.001884)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mChannel Load (0.000610)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 89) [0m
+  [4;35;1mSQL (0.000619)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000283)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:05:09', '2008-07-21 01:05:09')[0m
+  [4;36;1mChannel Create (0.000268)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:05:09', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:05:09')[0m
+  [4;35;1mNickname Load (0.000572)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 90) [0m
+  [4;36;1mSQL (0.038576)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000934)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000396)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:05:10', '2008-07-21 01:05:10')[0m
+  [4;35;1mChannel Create (0.000340)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:05:10', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:05:10')[0m
+  [4;36;1mNickname Load (0.000570)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 91) [0m
+  [4;35;1mChannel Load (0.000642)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 91) [0m
+  [4;36;1mMessage Create (0.000249)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('XcOXcKbZqDRVNHZ zAqh9WBFTGzcWQZRA ZdwkyzKXqQfmK9XHRpgLha8WHq vmehYA5QTxOnvhdjxQtBTLpUK Sz4wyOSaZ5YRYJOcc5FEk7zfbhuEZrK3j2 KAg2hSXmH9PdLxPX8my8RuwrzJqvMZeSmkVf8B3OdQvJcUnmVrvvEPnQNnQ2XBNTLTDQq9wcOx52sEJsEk9Dza63 AAj vxU53r37e7M5Krc baH nabGkgB4uwyCekjGC5MP4bWUmnwsLZubCJ2XezH2jxn4Pc OEjAG7rfKwtubd74Ly8TD ex4gPWPDvOOjZKVzvtEd7eFK7bBtSVeL5 M tq9J6YGnrWXzGHNOsvw9DFup MneS8BuM7MJDCnQqvmJGWBWLQSe772bstgN9xCg 2b 6YzSOnqa398y5VB4NQegUYeFfJaOE9qfpDy rE8uA6QF94VdbQCNTOYnN3JRBDXf Q6djz4Ue7E2Pt s CRDv Rp2zTsSGf94 PtT8XOk9mNzE TArMAGXZM5WmXf73OvkHnqhuD57jvyARsZx8f5Jb rVU AjuZu jHSKuNRuSBfdBPZtEKUdWvsAxudcdknOky7XU8Ph6YaZH', 91, '2008-07-21 01:05:10', NULL, 91, '2008-07-21 01:05:10')[0m
+  [4;35;1mNickname Create (0.000201)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:05:10', '2008-07-21 01:05:10')[0m
+  [4;36;1mChannel Create (0.000217)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:05:10', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:05:10')[0m
+  [4;35;1mNickname Load (0.000489)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 92) [0m
+  [4;36;1mChannel Load (0.000521)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 92) [0m
+  [4;35;1mMessage Create (0.000233)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('3EVSTZVFxLSReug s Yx68WT6ctqw9u bYCFF SX u8uG3OmzpyGXCS3SJ BQFEySyJkWs', 92, '2008-07-21 01:05:10', NULL, 92, '2008-07-21 01:05:10')[0m
+  [4;36;1mMessage Update (0.000431)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-19 01:05:10', `updated_at` = '2008-07-21 01:05:10' WHERE `id` = 74[0m
+  [4;35;1mMessage Load (0.000666)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC[0m
+  [4;36;1mSQL (0.000742)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000259)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000372)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:05:10', '2008-07-21 01:05:10')[0m
+  [4;35;1mChannel Create (0.000248)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:05:10', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:05:10')[0m
+  [4;36;1mNickname Load (0.000466)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 93) [0m
+  [4;35;1mChannel Load (0.000516)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 93) [0m
+  [4;36;1mMessage Create (0.000201)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something http://www.google.com/something.txt, what do you think', 93, '2008-07-21 01:05:10', NULL, 93, '2008-07-21 01:05:10')[0m
+  [4;35;1mSQL (0.000718)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000272)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:05:10', '2008-07-21 01:05:10')[0m
+  [4;36;1mChannel Create (0.000249)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:05:10', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:05:10')[0m
+  [4;35;1mNickname Load (0.000509)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 94) [0m
+  [4;36;1mChannel Load (0.000556)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 94) [0m
+  [4;35;1mMessage Create (0.000207)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something: http://www.google.com', 94, '2008-07-21 01:05:10', NULL, 94, '2008-07-21 01:05:10')[0m
+  [4;36;1mNickname Create (0.000213)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:05:10', '2008-07-21 01:05:10')[0m
+  [4;35;1mChannel Create (0.000242)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:05:10', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:05:10')[0m
+  [4;36;1mNickname Load (0.000417)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 95) [0m
+  [4;35;1mChannel Load (0.000517)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 95) [0m
+  [4;36;1mMessage Create (0.000189)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something else: http://www.yahoo.com', 95, '2008-07-21 01:05:10', NULL, 95, '2008-07-21 01:05:10')[0m
+  [4;35;1mMessage Load (0.000595)[0m   [0mSELECT * FROM `messages` [0m
+  [4;36;1mSQL (0.000688)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000146)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000259)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:05:10', '2008-07-21 01:05:10')[0m
+  [4;35;1mChannel Create (0.000298)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:05:10', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:05:10')[0m
+  [4;36;1mNickname Load (0.000476)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 96) [0m
+  [4;35;1mChannel Load (0.000529)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 96) [0m
+  [4;36;1mMessage Create (0.000209)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('PwqONW2fNTtjVK9DyUe5AZ8jtde3dfGnUefS Yb9X4TgFy7xjHDa8zyDbHQ PNeGFvAu2M 3JwHDyQbCeEjbn4Fr3FPU4CXW8r8PxsZ6f sKx 5 5ZXax9cerT cH6d ypDpYUZRdk5uHyuyEzCKbKu pWyG98LvssHbwGnRrjcGf6UccRPeXOjb2gbF LBzskMnOpOhFxW5A 9T5CFeOk3mrv 9gpW gKa9dAjJGS8xjO4W6bC2QLvNauVf AvKYgNLdnR', 96, '2008-07-21 01:05:10', NULL, 96, '2008-07-21 01:05:10')[0m
+  [4;35;1mMessage Update (0.000251)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:05:10' WHERE `id` = 78[0m
+  [4;36;1mMessage Load (0.000523)[0m   [0;1mSELECT * FROM `messages` ORDER BY messages.id DESC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000199)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:05:10', '2008-07-21 01:05:10')[0m
+  [4;36;1mChannel Create (0.000179)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:05:10', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:05:10')[0m
+  [4;35;1mNickname Load (0.000431)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 97) [0m
+  [4;36;1mChannel Load (0.000526)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 97) [0m
+  [4;35;1mMessage Create (0.000208)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('CDW4eyHQJaqsWXkHaXQuuMpRQET8zWfTc6 Zp JQ8ZPsUE OejutSYyQAbZLgtu8vbGS9cznHqewK5Xcj85vjpPJNUdtO4k6bMLspCkHBVXBZgL6xwAzdyf3uduSdQcNhPSTsH3kfhGsWnT X3bsbCstFqtG2S8 Fx5MT8SSVjVceWBvgH', 97, '2008-07-21 01:05:10', NULL, 97, '2008-07-21 01:05:10')[0m
+  [4;36;1mMessage Update (0.000212)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-22 01:05:10', `updated_at` = '2008-07-21 01:05:10' WHERE `id` = 79[0m
+  [4;35;1mMessage Load (0.000517)[0m   [0mSELECT * FROM `messages` ORDER BY messages.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.000953)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.001350)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000318)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:05:10', '2008-07-21 01:05:10')[0m
+  [4;35;1mChannel Create (0.000204)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:05:10', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:05:10')[0m
+  [4;36;1mNickname Load (0.000441)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 98) [0m
+  [4;35;1mChannel Load (0.000520)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 98) [0m
+  [4;36;1mMessage Create (0.000240)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('GadbdPUmm7t qm2aupF4U5q5MhjFR QSQ3Zww tKYEP6UHevvspSww L aJFvPMY JzLG8GVd HVfSCNrF dXMs5aMZ UCD 78b5wxWQTBSWKVzg9Of2kXp4V7c8 YjZMMzJtB Rrb8F8WaEYE C7SZ2nsm3vuETCxsXGkjAuVZM3Ujmd3gAZunrOb2RWT EpNtCQcma4Mj22gYxayd24qF9Yt2xDqJ4kQ8TNtQb3TQQB9PAZ mb6KqADDDhF3pwE jZUmExZ7nrMMgC6r6nynfOznjmfDVhnKUQAwtpSHQn q4vm5jqAvHW99yDv7R2v Yag5 aETje9AfOgnpxAptkdd4DFGqb RvdxuX VcZL zwEnyepyhVM5NaM FG7hUNMGJYVDUjnsbRFtP4BpV8UruVeSPvQJJffhOUuX8XJdTCAUcv2A nBGRAnCswajm 3nWuzUfEj2m2rWm5 rq 236cTujmGESGwXXbu8GVLPJ5cM tvHrFTbpxNx5SVa5KJnXGZPf unL7zr c CEfDh6fQQMa2685vweW67 cwDq8evWOnKKKQ4 9 HanXsCSbWZKdXLHg sV xYYbRQ Az nUTYuzfuT5b3mKvn VtJwnjO5UzHtO8KKSMGvpZ854TeWaj MOLkVKn5LmK6kTdMkvQWwJSPsY8x4qxW5dEwAeCOBT3kgrCFFAWd EZrpDOQHx7KNw7 JEsRXOnjMsgfkd8JpO LvWtLZMkA8crkFMvWGQhL PeqceTC3KJbba9jGPKbX 5VrZ T2BbXvCRyn3FsBDTHcMY EyHsskYgU5ZXCuqWfryCkUA4w8ByScxZzbP7VLDnGqShrRZuCDHJgveGDEUZYE3WP w5CBrZPdUfH7RjdeXQwwZZKutw9MMGjDfG6HCL8Na5OkU7QpjKT86NXumtxnL8HxCmVA H9QQLbAX krWaq', 98, '2008-07-21 01:05:10', NULL, 98, '2008-07-21 01:05:10')[0m
+  [4;35;1mMessage Update (0.000236)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:05:10' WHERE `id` = 80[0m
+  [4;36;1mMessage Load (0.000527)[0m   [0;1mSELECT * FROM `messages` LIMIT 1[0m
+  [4;35;1mNickname Create (0.000205)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:05:10', '2008-07-21 01:05:10')[0m
+  [4;36;1mChannel Create (0.000183)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:05:10', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:05:10')[0m
+  [4;35;1mNickname Load (0.000392)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 99) [0m
+  [4;36;1mChannel Load (0.000507)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 99) [0m
+  [4;35;1mMessage Create (0.000191)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('6c92vbssBurna2pPX LnrqHGgNVsVdSZzQZtLGrUF8XkY 49pydCVnQ7FDp GO 6 G8pZ MejQMDFYvqEDks2vzDasg5bJ HY5P3 Un7xcuwfW89DzxqNFGnMSOsvR 9SpUqQCmDwBgzR2Ua9XTV93djG kFWfX9U', 99, '2008-07-21 01:05:10', NULL, 99, '2008-07-21 01:05:10')[0m
+  [4;36;1mMessage Update (0.000200)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-20 01:05:10', `updated_at` = '2008-07-21 01:05:10' WHERE `id` = 81[0m
+  [4;35;1mMessage Load (0.000536)[0m   [0mSELECT * FROM `messages` LIMIT 1[0m
+  [4;36;1mSQL (0.000740)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000173)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000128)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011902)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000383)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:06:46', '2008-07-21 01:06:46')[0m
+  [4;35;1mChannel Columns (0.002127)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000312)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:06:46', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:06:46')[0m
+  [4;35;1mMessage Columns (0.001965)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000468)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 100) [0m
+  [4;35;1mChannel Load (0.000524)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 100) [0m
+  [4;36;1mMessage Create (0.000225)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('m KyVUNQwWzOQuUPg4nDETYdf4vgSUaN8pRLRP zynvqEFTGsRF3YGQBytrZUUdVmnSsynU E3AsvSS5cW FfUbXcHbazDPYanQmrpUFGC6EDwDpD9phRVOxbeeSYb mbSZS42mrpmm8rbCQqzAP9y 5nPag2GZSGp4 PKjEwukGkTKvO Dw7b4fXwHgakp8yAh uQhvwEJejenUd5DbpeQ gMtY MdUQnqcpg 2OyOQr3fp63QVjQnVL EFUeyLdL3vrG94J 3vX WKtyBH47cjxE U6wReEfu', 100, '2008-07-21 01:06:46', NULL, 100, '2008-07-21 01:06:46')[0m
+  [4;35;1mMessage Update (0.000368)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:06:46' WHERE `id` = 82[0m
+  [4;36;1mMessage Load (0.000547)[0m   [0;1mSELECT * FROM `messages` LIMIT 1[0m
+  [4;35;1mNickname Create (0.000250)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:06:46', '2008-07-21 01:06:46')[0m
+  [4;36;1mChannel Create (0.000190)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:06:46', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:06:46')[0m
+  [4;35;1mNickname Load (0.000407)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 101) [0m
+  [4;36;1mChannel Load (0.000512)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 101) [0m
+  [4;35;1mMessage Create (0.000234)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('N uRO DGQJqw4SgMxjfT8 d9Nw2ntnxyN uvmeka YbaPJEDS44ZO N2GGfndUKfZFrOEECX6nEOAJTOCmKWKZLAjWE8PHHaTnAwn8a KDNzRy3MXesDnm48NJL NQYDjLVADNp7pgakCJWbr42vy75 34EDsWCVQ Qs38YwujSd85bbOcwY39tsYn4eSEzKAkMq84Yaqmdg29c X gWs7T3XH K2kZWXRKe8Aw2O29Y5W44LxBs gb3PnQT8PH3 xbhOk5nAVnVzWchZEEV6Z5PNSf5R6gjAtJWDLs2BEgBZ pzv cFkPdfbXypDKyYs yJ8 fY8UyYsr5hvjEV3q7mRETgGMvq9Ms3TzOrD QfZ8Nd7Cz5mzzJb8vXrpnckhX3xv8TAYSy46S3W v hxY2zGjDxXaKZjG5HCSnehfXBarPaGw rma44qM6pzKk Ty68yvqe5ExA9 xWubE 2aEba mWnPe3Rfna8AqTb9fYzkY693ubMrUR2SKgwzudP42LDEO Van6FymzLkwUNv BrX2nOseHzKaPNtU98xbLBrrpfkbV69JU8 R4 LfwNAaVtPaFv5UPpaxeOj3qHknmjAe xfJhLNRWwCc95wZ22h GnuCRxhrW4PMrOhhP6MmFfmbkNqBVnQGMQn uMvNNUMfYtfqPg Kb8ARZgDZwYTapDc2NTycYjCOKv8YZxQAjQNZCMNRhOJH XdXdG4s9bErthWrE9VWx9NQT8 GAAV7bKSQcYT4jfUk2UqCC zYtSw PEXWeM jC82f37aNJYxaE9u6aUKXzDz6WQ OtgwyPcFvbmM5nFwb799JwCbkvSDjkvumjMpnMUdNV8jtkzdbGGKGT3JaLuVRyTUG2x32buFpL HKT Xz3fvBHEXEsBb9zKWs5xHRC3SbZQVx 3OP8Hpr 5g7R MQaTfd', 101, '2008-07-21 01:06:46', NULL, 101, '2008-07-21 01:06:46')[0m
+  [4;36;1mMessage Update (0.000213)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-20 01:06:46', `updated_at` = '2008-07-21 01:06:46' WHERE `id` = 83[0m
+  [4;35;1mMessage Load (0.000513)[0m   [0mSELECT * FROM `messages` LIMIT 1[0m
+  [4;36;1mSQL (0.033245)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000175)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000128)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012080)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000442)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:07:33', '2008-07-21 01:07:33')[0m
+  [4;35;1mChannel Columns (0.002659)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000324)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:07:33', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:07:33')[0m
+  [4;35;1mMessage Columns (0.002454)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000646)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 102) [0m
+  [4;35;1mChannel Load (0.000765)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 102) [0m
+  [4;36;1mMessage Create (0.000352)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('5EDEYf6yTbBmdf5DHwThBK GpFAWqkQ7UBmULm 9hUWFmLvC3euGyQ HPeCeKbWuSusvZPmNEGHFvrtqZOXOQOU vu ve7Sv9uUsRXsXSF3w5DS3W P cfzKzdng Mn55s4vsMQHa25UfHjyVRPtGYRDCpJK vYx8vLBG945dxcPFmuKHj4m6ESP nbjZZppk3LB hwYfF4rBCANycSOz2cMRSqVZES QkQge6Q6vAamtLKtPGnzwv an G5 BzZWz4CKtzNtY8P3J Bh94j7zH2 LNC5 fssTKd36pyvn2nVbbGS2euT9EhCYwkcQXWtJ7sNmvnh5FVKS4jTQ82SgXZYphatZJ t9wyN3XEg6FygtDO3hSjXBeg4Dxjq9 pQnR5g S7vyBge574MbNEVZNEQ RU6YyXT6PGnEsOf8JwqmQSEAtcUrJD3 VfSRZmZuPbgMWnBXN Aq7sCeq VkVV nvWsQ85Pk4xJ2LM3cVVnbSB2UkjCqGgd kqVUAKL8tyZV 67XmnD5yO7brDss3HNyRyT4tUsrzjmx ak75FuUXje6dLQK6e96HfPvunSDA f6HMCVSOVA7TRRnJQrGF72spDTVYu3br ZSbT9VRkYC6A8nMv 5aUQ tx aaJ 7HxPZmB8BzJBD axYfeN8B6yek POAb Q3P4U5zqqgDTeA63xMTgS32aAfUU S3Rq9U8z XdxcOev7OSNndYksCStasmm7 m ZwmCxVGHhOTDN qxRzJfLVOwEp6UkbHF', 102, '2008-07-21 01:07:33', NULL, 102, '2008-07-21 01:07:33')[0m
+  [4;35;1mMessage Update (0.000388)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:07:33' WHERE `id` = 84[0m
+  [4;36;1mMessage Load (0.000552)[0m   [0;1mSELECT * FROM `messages` LIMIT 1[0m
+  [4;35;1mNickname Create (0.000227)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:07:33', '2008-07-21 01:07:33')[0m
+  [4;36;1mChannel Create (0.000210)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:07:33', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:07:33')[0m
+  [4;35;1mNickname Load (0.000419)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 103) [0m
+  [4;36;1mChannel Load (0.000518)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 103) [0m
+  [4;35;1mMessage Create (0.000193)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('ygrDAwyXzs6nnnWFh83ezG pWAkG25EVTUKuTdvjMkWKwSWC 2XqVzFB', 103, '2008-07-21 01:07:33', NULL, 103, '2008-07-21 01:07:33')[0m
+  [4;36;1mMessage Update (0.000230)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-20 01:07:33', `updated_at` = '2008-07-21 01:07:33' WHERE `id` = 85[0m
+  [4;35;1mMessage Load (0.000518)[0m   [0mSELECT * FROM `messages` LIMIT 1[0m
+  [4;36;1mSQL (0.031622)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000142)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012142)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000399)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:08:15', '2008-07-21 01:08:15')[0m
+  [4;35;1mChannel Columns (0.002702)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.001144)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:08:15', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:08:15')[0m
+  [4;35;1mMessage Columns (0.002455)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000643)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 104) [0m
+  [4;35;1mChannel Load (0.000787)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 104) [0m
+  [4;36;1mMessage Create (0.000331)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('M h3pVhSQ ytSBAG8qRyuUQ4ZpQMAHkE6y Ru3SW5FV8sJeq4E ZKwK7YPWyFQTJQZkqZNJk2ZD2J X629yzqpPe6AnzkDk5MNTB xTNvGbbjc 8sYm4DmtEcYZfcmdH VJkybwm4vxv842d276VPwudTxXnDamfUytjVWOuZKSc73S9T8dyzvfgWApDNBpjJGHeMPUTGAGhEUjNXGkTzJBCvg7Wu nm8r4cSYadkzhpvcHa8RDbrDpaFqAUg9J Y2gvSY O5ENsghz8K4 BJZHptsWOXvHkV xhafx7EaU7jMV gEa9KNQ3V 6YDwk99qBaqWOfhSVSVMBL2y6Me fO77D AJVpKf7PubLW87GvwzCtx9PPbHTfEfs9uMMTYxV9EfbtdnWksVn y KZRSjRYExP2Y7u7DbzDg6MJ6yvMs2XBbs6axBYA3w fLDkO RWp xyGeSAhOg44TrtsEqxaMwNcmRM rv9yVcuLJJVa2X qXrpfR8nQbTjwwCzFuqGZVJmPeTBYsqbdHyhQYdhuvMt4yRX4HqndXanvg9DMzdJZJ4APvHBsqMe j8Y x BTeGYZCGxGdvnHB9eTeNbsxnLk468EFvHPmd3bB2K69s9gcF3D3r hjLRk fGaXZb2VMYggKAGzNan9 r5TF8upL jjV xaMC3SQxtjrDL5TOwUN vHxv5aJKxSswEGQfYf8VXZtS5FLDRMtwUzzw2C7XadNOrBC V9Ee8hHtWE7Y6DBROsq8vqCGDZMLcFavSKUdZUSfLAgQ2yOHNqnvHAqOS4nrt9Sb9kxrDbEXGv5 UTKTUWOGCabJLygOZKQK7BbZA KX3Y wrL4WUtSJOBPNDtZBMX2 LJ3KfKCyQ2Z8', 104, '2008-07-21 01:08:15', NULL, 104, '2008-07-21 01:08:15')[0m
+  [4;35;1mMessage Update (0.000379)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:08:15' WHERE `id` = 86[0m
+  [4;36;1mMessage Load (0.000604)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mSQL (0.000703)[0m   [0mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000179)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000201)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000127)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012024)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000360)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:08:22', '2008-07-21 01:08:22')[0m
+  [4;35;1mChannel Columns (0.003461)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000347)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:08:22', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:08:22')[0m
+  [4;35;1mMessage Columns (0.002467)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000648)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 105) [0m
+  [4;35;1mChannel Load (0.000864)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 105) [0m
+  [4;36;1mMessage Create (0.000345)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('H b4bagPNX5r72Wx4Bskqr2 H9bhSQMZP7k uuetN JnTGnaHtY5n Neuhy6cqEB SGDZd69WtBAY Unjn2XpTmnkyng9BB86S3GmX7C2raOH QafZehmX ZQnPXc UMQWuVLwtmR8VcGhZRuyjOzVtTrUcQ75N 83ExkNtH aDbAhUHmt tr rasAVZCSDMMEZCnV47nUzDHM9sLXnNNEGXAGZkwTCnGnzzkfd9YMkCL5fv7Gw2XVSGdFD7V taHTS kfm93 J8K8abmnwZsNGMa89zrtc36eGt4D4MnQkbnjX9GrbQqhSKRzmAMPPqZ63gExh Cxa5s8K MTExXb XNeBeQ rN sYuhtAH6FS4p8A6xFnJdyDCGZJO6u a66G ZTsBbxs2YGxc52V5Vvf4qVaaQ4DJ2n88C3W5L8 H7Pe C9LsK Vb44aBOPJ96 qBHPhk8kYVkW4MZUHyYPdZwGtEFLOcQ4ZLtFcQk9A8 rZDsBGPOBvvtGq3Z3WWrX5Abu9V9ZfX9cVXL Z3KGncQdVY 9B6VtLeNmTUfSRTUDhN9yO debKWZO vUbfSL8Th4t ZgBPJMD3v9dvsHYdzfFOyfgXFcHd6GG6Kn6EhDsX3w6gkwm8 DWywTfd A7WjUk fvvZXaw25G VEGPEuXqrYAARfr7KX5dX2qxqSHt YfsbLY55Evamy98MSxeYtqjX7pa9v7Ppk9nt P j7nOHYVGGTfKqYSM7T 8JfHB2pGkOuX4nHMhfa ZCsTRjHDkeH9ELx4M8McVhb3jhySOBZ R94mTVPJeHaX7wfgv4qZDyKGS9ms5Wj9k9zbaxKfrLZkUUNpsUc kPYSK844DASLbtmZUyMAb8fJESvbVD6dHLD2m6sXFH exm2qBMCGfBb2XYTnq8sQaQhQHUeZGrXbw2rqyCWTcgYY COJ w8DXeWz7tqgUKSStb5GPXVxOOagT5AfyYKhH5watsfgc', 105, '2008-07-21 01:08:22', NULL, 105, '2008-07-21 01:08:22')[0m
+  [4;35;1mMessage Update (0.000411)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:08:22' WHERE `id` = 87[0m
+  [4;36;1mMessage Load (0.000606)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000216)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:08:22', '2008-07-21 01:08:22')[0m
+  [4;36;1mChannel Create (0.000192)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:08:22', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:08:22')[0m
+  [4;35;1mNickname Load (0.000413)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 106) [0m
+  [4;36;1mChannel Load (0.000522)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 106) [0m
+  [4;35;1mMessage Create (0.000193)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('7Nj7NAVWdtePq 8DugsRa7TsvVzGkE5jsyvYsrOzBXLTV5N hB4xcnNLj9Mxsf4ZJTy9Kcg6uZNUUKs8tCMAE 7h Q ZHFOre47WFHb ', 106, '2008-07-21 01:08:22', NULL, 106, '2008-07-21 01:08:22')[0m
+  [4;36;1mMessage Update (0.000210)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-20 01:08:22', `updated_at` = '2008-07-21 01:08:22' WHERE `id` = 88[0m
+  [4;35;1mMessage Load (0.000557)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.023383)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000191)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000147)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012039)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000421)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:18:42', '2008-07-21 01:18:42')[0m
+  [4;35;1mChannel Columns (0.002632)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000316)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:18:42', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:18:42')[0m
+  [4;35;1mMessage Columns (0.002399)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000643)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 107) [0m
+  [4;35;1mChannel Load (0.000918)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 107) [0m
+  [4;36;1mMessage Create (0.000321)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('PANLuPvbsaVW5tquaBPfX8dmCp7PUAh Lr4DMF4COqWc3bqROtKEmeKRfzZXDELEX9DkNWbas8ARC3tsR8fwL4GdOsL7XYN2rABbSLe9Q8suzsLXkyYh3NJ Zq93GzUsCPZuW7CPA6Pqe9r7ZtswHVZFzwqydxxUSJZdDVxWMfCkm8bVK2tA85 QD hfVKTOSgAF7 fdaG6qYtWyFaSEcJVmTE5sFzg6K6kYSUD9EdQjAruaktOwXP4Lvjbk egYHKHFWdqZCmNVeOZd A9HjshsKbM HpewL7NJgHRDN7mE5xcDbVBegCLxdvGaTLFXUDnYxYjvpE 37ery svWqeUY3a7bqt2JPnsfGw8TOpWTyeBCRuSOxEd8QaF PEX R 7Er7T5rFOZ8gr5Y adKDO pDQrFK5EaDA7k 6XCdBBrgXqp9Km DkaugRY3 RHYBGvVyyD6mYTfzzYA8Dz6nqD m DPGdPhR7Zeexh Mc XwtGB9O6tB3FCAvGzQns36zDeGACEE9zy 4TA u7pSeEGHJ2azEE2BapYCqVQupudQKFfRkJLZsdaGyq3eB', 107, '2008-07-21 01:18:42', NULL, 107, '2008-07-21 01:18:42')[0m
+  [4;35;1mMessage Update (0.000370)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:18:42' WHERE `id` = 89[0m
+  [4;36;1mMessage Load (0.000616)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000239)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:18:42', '2008-07-21 01:18:42')[0m
+  [4;36;1mChannel Create (0.000193)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:18:42', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:18:42')[0m
+  [4;35;1mNickname Load (0.000416)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 108) [0m
+  [4;36;1mChannel Load (0.000535)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 108) [0m
+  [4;35;1mMessage Create (0.000230)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('Wr ShSZ RHR93TVyYMfgUQ4hTy8ffp ThBsLuDppfUq KHanGegVUn5eawXV6UXjZK6AyZkJpp4yfUfe4Z 8s dYW6NLBYDaG8NRY myfCVzWOsbODrvXLOy cxxNMGzX38KaaNxZsnTbG cghMADvAOTjN5ZaLQvgfXsTbKS9TfyFWbkKwFxnTk4ztU77b7F3kMbcBH25QvDEOUQ6te2FYwVMpC3NSSUTc4 Lg5FZavfekYU x7B5AgzbKc4ePRuQt8wh2s75pTnfGUGP27Kr4YZd6sXB5Ee7FXhye3sZFAaX9SzTbq skXXKuxZ8ECzeRmYu qeJKvwbeWhkP4qgMKE Ng8HPHAv8WvFKYDun7bAK AWJx7WOtEbN6TVnMYxR4CGcarK Mb3sgg8fZ2CHHJkrB6g5QA25YzUaUA357CaLz6 zQsU MfP6z T8b6DkfHshCWr 7bPGZpje aTpLpgO2 u', 108, '2008-07-21 01:18:42', NULL, 108, '2008-07-21 01:18:42')[0m
+  [4;36;1mMessage Update (0.000216)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-20 01:18:42', `updated_at` = '2008-07-21 01:18:42' WHERE `id` = 90[0m
+  [4;35;1mMessage Load (0.000568)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.000732)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000144)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012139)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000366)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:18:52', '2008-07-21 01:18:52')[0m
+  [4;35;1mChannel Columns (0.002735)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000330)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:18:52', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:18:52')[0m
+  [4;35;1mMessage Columns (0.002198)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000665)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 109) [0m
+  [4;35;1mChannel Load (0.000957)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 109) [0m
+  [4;36;1mMessage Create (0.000301)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('gGAZwZMzhMGtOcDz36rRw6U', 109, '2008-07-21 01:18:52', NULL, 109, '2008-07-21 01:18:52')[0m
+  [4;35;1mMessage Update (0.000359)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:18:52' WHERE `id` = 91[0m
+  [4;36;1mMessage Load (0.000649)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000244)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:18:52', '2008-07-21 01:18:52')[0m
+  [4;36;1mChannel Create (0.000187)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:18:52', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:18:52')[0m
+  [4;35;1mNickname Load (0.000419)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 110) [0m
+  [4;36;1mChannel Load (0.000519)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 110) [0m
+  [4;35;1mMessage Create (0.000208)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('Q Zyw XUTM5zQnvxLks QhspYatrazfnFe46 rOKXqL3Whp2kw vbkVw mk94nU 3hWp87AdB4AX3X2 sOOQ7yVdV2TA tuQC29dvANnN659RT6Bw L5tdJHLvZpZLEaL u YhKurmGbaLpJxcHNSVNhegNFxsuBhkaGfxSzDEtWGTWsvm5gr r3 TvVsxr85 BRGGAQsUbwmjCQ9n8vGj36ByjrbbWzw5NpBnth6H T22gck CxQeTBYGXraFR7LjM2ADyf7XUJ6gYVDKAs2apOsXanbMxODJXgs4', 110, '2008-07-21 01:18:52', NULL, 110, '2008-07-21 01:18:52')[0m
+  [4;36;1mMessage Update (0.000218)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-20 01:18:52', `updated_at` = '2008-07-21 01:18:52' WHERE `id` = 92[0m
+  [4;35;1mMessage Load (0.000620)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.031440)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000175)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000144)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012010)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000355)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:19:38', '2008-07-21 01:19:38')[0m
+  [4;35;1mChannel Columns (0.002730)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000292)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:19:38', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:19:38')[0m
+  [4;35;1mMessage Columns (0.001932)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000471)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 111) [0m
+  [4;35;1mChannel Load (0.000526)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 111) [0m
+  [4;36;1mMessage Create (0.000265)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('Z4vjpw7UrkqPqMpZqW PxA gXSfFFZQnabqxMdyfwyLh C OpH4LO7 tjnNBPspnGnTPU ZTU9evRGmEMPzBQ8sLYq b5xuvM8AJTJfCH9zByFzbSZNJ9RaHFLTXYjXf WRKgnv4ueL5Bcx6vy r 5FahVatPZh9qFCHC8UyjkRttRadZktMRBacrnL 2fk3q5NanQEBhJ8bKWSh7Z8LAPYwfYUwyjUAkMeYmsj7rbsWmLe3EykQRt2tReH2kbszyAx3qAwjssSHp8wVzgqwkf9m557ZtLZdLZ 2CUOuLEfvtQP VekJZfq3YH 8NbTejyyHEybzz6K4cgF2DtJ9JBM8OsDuLW', 111, '2008-07-21 01:19:38', NULL, 111, '2008-07-21 01:19:38')[0m
+  [4;35;1mMessage Update (0.000386)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:19:38' WHERE `id` = 93[0m
+  [4;36;1mMessage Load (0.000605)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mMessage Load (0.000538)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mNickname Create (0.000210)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:19:38', '2008-07-21 01:19:38')[0m
+  [4;35;1mChannel Create (0.000187)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:19:38', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:19:38')[0m
+  [4;36;1mNickname Load (0.000411)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 112) [0m
+  [4;35;1mChannel Load (0.000512)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 112) [0m
+  [4;36;1mMessage Create (0.000225)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('2GArZAhHrwtjvcyBz49KBDPs5c2w7uAhDs jYHvvKpqnT5ygsgt6AOnJZ5sdWUZHqfgffxcEk 3avYztLK MkH zr AENJqpWM UHJXeQxgkJ9 eRSTSh5Y5QBw2LKshfHvA4 hEYdhujGCE2gvq8Cek5W5UrMf D6mx DErnB A8xasNRVPJbdnLq9AFdCB yLs8ZbC d5nuKtZf JadjqygObhZLXjtfy 65WXPDf7JcXCQx3TXDW mpxaUK23pRvqqKe5h 4peDGurcJd3dGR5sA4qzR9qxeVnwhF9qFJsYRjmdV7RtC yFBrfq 76O9AAdtVp NUOYE wgd8Y Y Ndu9KmumsZcg44MaE79464OAyOA3Taz YrgE6T2WH egdYbevdudGeKYfBDB457L5NuaERsYmnmnwq7wPOgKkjGep76QYvLU9 D6wbSxQOZRPfp5fMPqm9cSt5xsQ5j 8Sej3UzN7gKrCOb3GnCwd9SU Z MbHp3RaORnrcp sfKcWczXQBV2WWYdQ 66bsEhwQhzNT6zk7cet2TVHVnxMLWXX9ORu 7CVBgr2M uNOytupBMVGGDTWNyuRFqN 7 XvaHtNqwdnXnKu6OaNqHUR79XGJVdr3dtBPOxf h X83NrFEjxVeK4kf79QsS4MFY BsOmeNOzOEPNtG2hxLq92Eq7YZc6QHt4XRK5HevbmYx bLdk6QyFH9et6fQ5 QEXmRLPkjAVUFkPmLKM6UmV33K6 wOSAY bW3bYfYHN bYDTuX6WgOqSkQ NFvaVwrHwuOpmGhu5uxv VpZFuQA3JsBP4Bs7', 112, '2008-07-21 01:19:38', NULL, 112, '2008-07-21 01:19:38')[0m
+  [4;35;1mMessage Update (0.000213)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 01:19:38', `updated_at` = '2008-07-21 01:19:38' WHERE `id` = 94[0m
+  [4;36;1mMessage Load (0.000566)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mMessage Load (0.000604)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.000726)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000176)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.002549)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000372)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:19:59', '2008-07-21 01:19:59')[0m
+  [4;35;1mChannel Columns (0.002446)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000281)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:19:59', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:19:59')[0m
+  [4;35;1mMessage Columns (0.001639)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000466)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 113) [0m
+  [4;35;1mChannel Load (0.000537)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 113) [0m
+  [4;36;1mMessage Create (0.000470)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('5bJ5Z4YDkL5DTsmU7DQKG9Pf87L7mh7 tku3THGtw kCv CPe5Dqdh9P 65CnGOpkxEhu2TtQMUeUCawGtYLvDBfGSXjQOJYPt5dyy4 UgSWY5OyfsRQNxT', 113, '2008-07-21 01:19:59', NULL, 113, '2008-07-21 01:19:59')[0m
+  [4;35;1mMessage Update (0.000368)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 01:19:59', `updated_at` = '2008-07-21 01:19:59' WHERE `id` = 95[0m
+  [4;36;1mMessage Load (0.000609)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mMessage Load (0.000536)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.000658)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000178)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.013285)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000430)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:29:49', '2008-07-21 01:29:49')[0m
+  [4;35;1mChannel Columns (0.002853)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000383)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:29:49', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:29:49')[0m
+  [4;35;1mMessage Columns (0.002931)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mChannel Load (0.000928)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 114) [0m
+  [4;35;1mSQL (0.028519)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000249)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000410)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:29:49', '2008-07-21 01:29:49')[0m
+  [4;36;1mChannel Create (0.000352)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:29:49', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:29:49')[0m
+  [4;35;1mNickname Load (0.000691)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 115) [0m
+  [4;36;1mSQL (0.000686)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000142)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000290)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:29:49', '2008-07-21 01:29:49')[0m
+  [4;35;1mChannel Create (0.000254)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:29:49', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:29:49')[0m
+  [4;36;1mNickname Load (0.000490)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 116) [0m
+  [4;35;1mChannel Load (0.000578)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 116) [0m
+  [4;36;1mMessage Create (0.000237)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('YLFp zC5Zhm j9ND ezc4gZtDkTLXbYh6GmKf v6qRm e8DTZs3OpKMujwunbOBcYcPs3PuTtAvw pKuUVn sg4Tpsg LU6g9836e 8HLDUFE5A fSvr8qkyshArOfd rwYq9XPUbbuP4GQj5FWCSqEpBbAFHALegh65Atg3ZkM5YDVDARfv5N9HvHhrwTmKABFM7NWXXYMmmKMEZGpH2Ea2qF5 nWPj3ufZXajdWqJQvmJ9Yy3CGb8Wbj ZQwWS GeQBvkAHGq6bxGhrqs NAEpsS 5A zhU69QaexscNjUV6OUG7Ux5twHqxFdN3B5AVMrmKJugmvAmQ mpP6RCQAVr5B4eFLQYE 2nMAYMerSd xvgehVwDdB DNYYpO8PVL6kLcWkgfGM6xQe Pc5KBP9R97KD2VMaH2g5TEk3mE6PTQU4sJTt8MsLj48ZCDaQmyrRZpBFhehdyZxr6v 6CpqEAPYFH7vx 5ML4zMakLOE2DvZ', 116, '2008-07-21 01:29:49', NULL, 116, '2008-07-21 01:29:49')[0m
+  [4;35;1mNickname Create (0.000179)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:29:49', '2008-07-21 01:29:49')[0m
+  [4;36;1mChannel Create (0.000202)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:29:49', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:29:49')[0m
+  [4;35;1mNickname Load (0.000466)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 117) [0m
+  [4;36;1mChannel Load (0.000524)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 117) [0m
+  [4;35;1mMessage Create (0.000218)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('7jnJX3MNRhSpbNr9v 44L VVQddVSQzccRUkq qhsQWGKwN9xLtzGpq8pmy83LPNx8gBm mYxhL7qVYssDsYmpWs82s7PamYN9UyO k9E7RcRj2fxQpj24wVzukEwb', 117, '2008-07-21 01:29:49', NULL, 117, '2008-07-21 01:29:49')[0m
+  [4;36;1mMessage Update (0.000364)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-19 01:29:49', `updated_at` = '2008-07-21 01:29:49' WHERE `id` = 97[0m
+  [4;35;1mMessage Load (0.000655)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC[0m
+  [4;36;1mSQL (0.000730)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000138)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000281)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:29:49', '2008-07-21 01:29:49')[0m
+  [4;35;1mChannel Create (0.000273)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:29:49', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:29:49')[0m
+  [4;36;1mNickname Load (0.000483)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 118) [0m
+  [4;35;1mChannel Load (0.000516)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 118) [0m
+  [4;36;1mMessage Create (0.000196)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something http://www.google.com/something.txt, what do you think', 118, '2008-07-21 01:29:49', NULL, 118, '2008-07-21 01:29:49')[0m
+  [4;35;1mSQL (0.000688)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000134)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000266)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:29:49', '2008-07-21 01:29:49')[0m
+  [4;36;1mChannel Create (0.000273)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:29:49', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:29:49')[0m
+  [4;35;1mNickname Load (0.000493)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 119) [0m
+  [4;36;1mChannel Load (0.000524)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 119) [0m
+  [4;35;1mMessage Create (0.000193)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something: http://www.google.com', 119, '2008-07-21 01:29:49', NULL, 119, '2008-07-21 01:29:49')[0m
+  [4;36;1mNickname Create (0.000210)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:29:49', '2008-07-21 01:29:49')[0m
+  [4;35;1mChannel Create (0.000176)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:29:49', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:29:49')[0m
+  [4;36;1mNickname Load (0.000420)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 120) [0m
+  [4;35;1mChannel Load (0.000584)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 120) [0m
+  [4;36;1mMessage Create (0.000203)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something else: http://www.yahoo.com', 120, '2008-07-21 01:29:49', NULL, 120, '2008-07-21 01:29:49')[0m
+  [4;35;1mMessage Load (0.000545)[0m   [0mSELECT * FROM `messages` [0m
+  [4;36;1mSQL (0.000684)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000154)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000250)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:29:49', '2008-07-21 01:29:49')[0m
+  [4;35;1mChannel Create (0.000249)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:29:49', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:29:49')[0m
+  [4;36;1mNickname Load (0.000495)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 121) [0m
+  [4;35;1mChannel Load (0.000542)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 121) [0m
+  [4;36;1mMessage Create (0.000235)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('Phz6EF6nSv trBencYjMLC g8uaZXf2w wUXR3cpgn YQxmcmE4QJQRFXwgDFtO HdyRjtsLPvcdF SxzWavTkrLaBFzR 98HBdR8289PtMHm84qPDpz7UhJQXLT2DwkwAjYBvF FrWVK WjzVg9Vt6WPPJ9xxnTEjBMf7qAFA9qhnGGBXZEYpRYbH2fHwCTt6wZ FxBEaq crn4BsvSBMLuJMFxUhD3t3HPPhzEmabxsmbOBxGsarNhuwWnswtBpbEh LJtp45tgd urUw3JRhYF7Br6mZOBjmpFz9nkKTN6xTCx 28fHAGqMKX2CJvvxs ejr7Ren LD dPw YQr m3DSAPe6ddPSQdpdynZ pOpBghvAmgqJ4SvOMyddtGTGFFRQMOqK5 f6drcenXvr7r2zPZUYJSKFq JUBUZx3r8bWkkyJ3fPpgdTdGtnBvK4eN ujQt3A8Xc7TQD X9qEV 8NJmuKN8XvvAckySFttG PPbRdsydOmBQ yLhZRgYYCfy3zuSLjGeAtyzE3uKp7pYSzxUQyprPP3ZwvQpN3 RRrK8psLtPADybgQOFumVjfO92KavpbfBgf4aKNbE9 a4h MqujWEBhUNHDnFWCq8RgSj5xtWGmtUDf4JrwSnYWzFQW6XRMgd 73d3SYTFmkR7WeUH9ZWvLaG cuccHUqC8LrQcu5HhCDMRvODaTDkjwF2qpR3 eckUGCcFmRjOeukdFTBs9y amFx8pbW6FYsmv7pPJ26ZBPUDgcVvE wPpZ T5CsqOGxz Db9zFTxzM Ft5VebUW6', 121, '2008-07-21 01:29:49', NULL, 121, '2008-07-21 01:29:49')[0m
+  [4;35;1mMessage Update (0.000229)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:29:49' WHERE `id` = 101[0m
+  [4;36;1mMessage Load (0.000566)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at DESC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000188)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:29:49', '2008-07-21 01:29:49')[0m
+  [4;36;1mChannel Create (0.000177)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:29:49', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:29:49')[0m
+  [4;35;1mNickname Load (0.000421)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 122) [0m
+  [4;36;1mChannel Load (0.000509)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 122) [0m
+  [4;35;1mMessage Create (0.000222)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('O4LA MTSxd6wkk8y6fD 59h2ftAu MxpStz7zLxeyN 3AsK8Ba4H3cKJBmZadn4ktjA7HPMg6STjn kCvNqXnGm4ZExvt6 FX6OBEts6G5YBHBnTj96WWxhUXtzbS UsOZAXELBbz n22HPMYRHB gXKFYgUureutHxbTggnuvq5z M XyYy9DSOEAxd37f9Y2DkEV3yG8qcMd ac32Tx8p 9NkO3tE8K9Y F8qaSkFh2OKjVjTQRzEgrvkq452uhpCE7RuKrZ3jd5pyYGWN836EQjkcRgn8AqpBFu3zVvSsuOTryFg Ot2nYDTnDRmfgmH9vXVxgVs 6NnbYKKcArtr5QrrvWdN8 pOBQFvtRdABnWgQDBqTZMuuscdBY8mhJ2PeMdGdb3jF8X4szuJ2J4 JWskCWF9VpWWYDDabt NOagXXaQM89TGwBr9sC7vEOFLYPmQHKW8JRGFgmRWFk ThJBv 4 8qzv3PaCjQkmnv ev9dbfn6Ld3P6jTkpXntZ4uMn StEnSH k6ObTA6W7dsn2FkcqHfNHvury2KpnDZDWf4D4 Zbkq9S9XBBSpOs3YsLTyxFzUVNa9b8RMRTwXKa4 gHCku 4uqMDOZOuHpuA57jE9AWYKxbs5bsjQdCaLtK22ne3BMaHcFs2JRTejxCVZ AbNVpCC3 pAFpMm g d9uSQ2Uu5s6FhgDVS3Ne7COCuwf7dnnD8LLu4cOjtDQjvUrGknnMaKdj27SF RNUutYmErfvb4Z7LW E G Zjz NXct43XwtpRW3K k rL29etxCC EbQupRABXqqGL6ETmyHbObxrYX 3RzVds x VJqbpU9UefjE4j6p8L6KwauPLYWFgmxdCQy hEkqdEEpyCkTbkbExbMWKTzSTJXpB6zfQQRejtZF6 4z39h8pXLhFR7p mS', 122, '2008-07-21 01:29:49', NULL, 122, '2008-07-21 01:29:49')[0m
+  [4;36;1mMessage Update (0.000205)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-22 01:29:49', `updated_at` = '2008-07-21 01:29:49' WHERE `id` = 102[0m
+  [4;35;1mMessage Load (0.000614)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC LIMIT 1[0m
+  [4;36;1mSQL (0.000810)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000148)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000281)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:29:49', '2008-07-21 01:29:49')[0m
+  [4;35;1mChannel Create (0.000249)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:29:49', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:29:49')[0m
+  [4;36;1mNickname Load (0.000489)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 123) [0m
+  [4;35;1mChannel Load (0.000527)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 123) [0m
+  [4;36;1mMessage Create (0.000232)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('JN4htp3E4MqTyyV8U46VEAQhm29GHhdUmNQfLJCNmbO34h3L7WBJLXFHzY3ZQQOqErcKfTFtrNcr TQ79BmeeRwqcNcPwCatTdpRVWbCFha XvbJcVjSSKEFO8KL4EqVzu5tFquhG HQRdN X9ynRpHYWvg4vAjQkWGAfNWk3jXKCcf8LnuHbjCh7GRjUXMudeLActXPJ2VrVrzJCGzLuDHQYzKmqjUchbw2afQHemQYVTe fNZbcTBQ45CEBf C35SymdMQTXCskrzzSFWzUUhN OHmneuXbwALyMUduSHAZun8FueOj E6rt2nEswF6CB5hgm 4jPSGDubqavQn7KvHH7YOZQeWmJk RZcLe7eruUMswNOSx3G7fEbMm JkYha8eO3cUe M B9XmJZgdtm6bmUcHy5bQuXTq vWSHDO9QzmftgBtj8 FR4XCwOa bRvhJVsTbpJ8zT un4DTxuwZFTSKQTJDvUfZwgsaReYp6bv6n8tznX KtevEOxgkuDVGyYPAQW5JPTzxKEaKcgptUjEsKC6rRcTNuy4JPOb6ER9yV7A9 NfT5jcDCcNfW 7YdEM2jH6 v u9ybVaX5 vHM23HamCAYQPC K93TH6YdZub3sEWssYLDTDrxs za6fnrg6Uaq3ePVjsPe6GeHTdVZxGzzUdhGLqRh OW8 cm5y zYDrX2f4DNgg3zG2kkdHmX8G4kB5hxQGtEFhOhxWW34SqpaBMYj3RVUNE3C92Ap wfnQLMB8BpOvfD gj CYQA8LhXhqOPKbdh2SDDzp2dj4hxHxbzT2 D6QhGSKP8LqVKq', 123, '2008-07-21 01:29:49', NULL, 123, '2008-07-21 01:29:49')[0m
+  [4;35;1mMessage Update (0.000238)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:29:49' WHERE `id` = 103[0m
+  [4;36;1mNickname Create (0.000189)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:29:49', '2008-07-21 01:29:49')[0m
+  [4;35;1mChannel Create (0.000180)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:29:49', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:29:49')[0m
+  [4;36;1mNickname Load (0.000415)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 124) [0m
+  [4;35;1mChannel Load (0.000506)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 124) [0m
+  [4;36;1mMessage Create (0.000224)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('YA x9KqKggD2qsSZ6NnWwj8ThwRghcwUpCpfV8dgbDFPR2bJMwTFZ939Lw7f xpS 2JDreXajhEdQDeSNEB2w2hY8yqg9sugEbWFensecqFe4dFvBJk8WVkwWEmrMJWC qGb4hOBB5WQYOPRKV5K9TSNO5c5V6ML6dHFNswFDg8ZKMTLfZsBVG6b6PA4TKRC 4WgaFdEy PmDOapCfrhpPRJ kqW z2BdvS7c3NvhghGUjK2QhkyBeL5QnYsP7LDeFDdHfvLcR24GYREnO3NHvb8L76Mk8LQLB9qdzgBGgL3RaVY6XF5 54OYHsRAN3kpTWAbC3qshY VbHfx fQmM4w ucDgzAwmaWGnyHQMVUjED8w9nnXUsh5Uk GZfTLHgwTpsNd9QHx3mq jY8CT3dJZKnq2Xfm NJYt73sLbOhf D rDUVkxwq6xGEg O2bbEcOOTfA xPwAXKsh HdaGJpDNKPZEPJ FccCbGNPEJtvM37MPPN HRSuC7v3P63J 3SjBY YU8nKOTe6rggFpN8d H3fk22C6rtrVXp59YwUg f77OLXrrVw2GG6OHC8ThphL73dghnm esrSXqu4Zrs6hh9BAEtuyeq4c8Q6PKGB87YyFsxvaEDQ PjteJ Nw W 3HV9p8dV5ZES8ZQjRPxX4V9UdZCR9RastdzAgnmk4d9RryZVQQvnH bD3JfvDneCx7K 4dWM hYMwy MxYbRNsaaQusHQPuNSKSVt HvxZvvzR2AZ6Q x5QMWN3fVjLhnujzbV6fJEhbxfE76te5jVHeNV3yBWEGyeBZ677dL', 124, '2008-07-21 01:29:49', NULL, 124, '2008-07-21 01:29:49')[0m
+  [4;35;1mMessage Update (0.000206)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 01:29:49', `updated_at` = '2008-07-21 01:29:49' WHERE `id` = 104[0m
+  [4;36;1mMessage Load (0.000568)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mSQL (0.000935)[0m   [0mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000175)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000142)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.001863)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000418)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:31:11', '2008-07-21 01:31:11')[0m
+  [4;35;1mChannel Columns (0.002045)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000259)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:31:11', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:31:11')[0m
+  [4;35;1mMessage Columns (0.001888)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000512)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 125) [0m
+  [4;35;1mChannel Load (0.000544)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 125) [0m
+  [4;36;1mMessage Create (0.000261)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('ygutTQqwed3Sq7uSZOHkA 6NSn', 125, '2008-07-21 01:31:11', NULL, 125, '2008-07-21 01:31:11')[0m
+  [4;35;1mMessage Update (0.000379)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:31:11' WHERE `id` = 105[0m
+  [4;36;1mMessage Load (0.000602)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000220)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:31:11', '2008-07-21 01:31:11')[0m
+  [4;36;1mChannel Create (0.000187)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:31:11', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:31:11')[0m
+  [4;35;1mNickname Load (0.000410)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 126) [0m
+  [4;36;1mChannel Load (0.000511)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 126) [0m
+  [4;35;1mMessage Create (0.000245)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('VnuAW7kHqD rMFcK7pykegnZcZ sF hpRUMeFL KOyv2vYG2YY4OcB 6KV5 xHLPF66NnDW6qVXZ7CmnYMhAqLfTsqMaS AX SO Rz jWcw t U8VyKeJzU6N kJs cT5caCEZ42fzcsd3cvO4ZZwPKm 2h xuhSgEWUTAsN7JR6zVXTUS vpup HJLYh2GUJEWQBADuwnL2rKxH 7yeHHU AU29qGDeMhzZ85jPmb3Vck tF8vXGaaKnttfLK3ekOAuYd CCPv7NcKLQhWTcHVnkLY49 tTfamnbVA8CGzw9QbekRLA4Z5ebP9GzvY25BpPNg6FUzpNHCbFGY6 YAhsH XuuneBbe7uwBAYmEjGUgLAEKJ4AKZQ9EN2Tb6Nh mjJERHra47Zny5rttb9RwqR6nChQkuvkHZkX V8HmHX8AV2FTx3Qd49an ZFk gHbhT4PDbA6zWnL9DEKBGMtcxes8GMJw9Nng4O9MgWVjrWbYjnspSUsVs7jjpKp3nZA2 jCNSC3aGhnH4ZCSYjK U3Cr2eHZ5OLpy2ZRnEfJd367Pq xFQDXXGzvZqsjYy3Eu HuRuME5ftfJcs6nBRuLtT3MdaBK6HMP AVnMY8L32hwHsKfVQx9PcxFUpb eFVY9RRRKbmAeZzG55xVXXWrS KasGrFkYeNHFEOSNkJsNrGM', 126, '2008-07-21 01:31:11', NULL, 126, '2008-07-21 01:31:11')[0m
+  [4;36;1mMessage Update (0.000253)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-19 01:31:11', `updated_at` = '2008-07-21 01:31:11' WHERE `id` = 106[0m
+  [4;35;1mMessage Load (0.000614)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.000763)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011961)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000383)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:31:45', '2008-07-21 01:31:45')[0m
+  [4;35;1mChannel Columns (0.002179)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000273)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:31:45', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:31:45')[0m
+  [4;35;1mMessage Columns (0.001963)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000479)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 127) [0m
+  [4;35;1mChannel Load (0.000533)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 127) [0m
+  [4;36;1mMessage Create (0.000220)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('QTHR8UD 3fLOnDgcF44Awj v4 7qT 272DBM4FGadysX4nXvesXJVJSp2M GS VH D2PJVa bqMGZqKJuX SVYSK7ykUvSDcJzNV8tmaLS WOnSthD EJOH8r', 127, '2008-07-21 01:31:45', NULL, 127, '2008-07-21 01:31:45')[0m
+  [4;35;1mMessage Update (0.000406)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:31:45' WHERE `id` = 107[0m
+  [4;36;1mMessage Load (0.000599)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000218)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:31:45', '2008-07-21 01:31:45')[0m
+  [4;36;1mChannel Create (0.000191)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:31:45', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:31:45')[0m
+  [4;35;1mNickname Load (0.000431)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 128) [0m
+  [4;36;1mChannel Load (0.000528)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 128) [0m
+  [4;35;1mMessage Create (0.000237)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('DTJT6YOudgTdBv3uYfhUX mdtjfEkhGBTvCDjxWYFMO4OTGQfTE4PTJtmRxKqRwrg hKJNjGGHeOJwVfjE7U2 FP8 qLWhuBBCvC5hvYbxQnxzc4 FfjnrhhSuT GO4c4Kgm6e8hfumHDOjj7RSdQDYJYcz92wEurXHr5n6GarrQ5kDSXZsetX3aNME9tnqfSweAxG4f 6HNEqBsWSnORV8jY4SRtzCtc97A2Fsb3fdZVfxPe8JZv6Hh cqE4eT JJwOu5ZntE c3b883b8ZkEsXd 2U3mGRJVPUhP47Q58nAstUNTw9AJ9OpG XpXppc RN68x8QZMy JP FsHep6jfyqbv Sg2Cc6uCvTe9ZMtHU G4hYJP5ax wJEJ7Brk3ShmCFKuKKXJX3G45mR5eDZqsKtKBtnTGE9p whb7mk2dT NyhGUStTnabfsu JyfBWVbjkfGxdmh Kqj5geWLMLXW2 cRZUfrQFb6XBdsbjXXNeTx5gSfuyHvkZP3z9wCuwFQLuZSGSVMYfyb59 VeZxHNSpvUg5zrw6kRNqQ3MZsMRSVH 9M3zff8pSmt eJZVhC2uZYDZTqdcNt9TKFK3xdbBCweJvthu73 hMw4Zd WbmDbOrHJde4NGAZO6Db3RtQsNp4 Yq4yhMG9axrXtuPNYBbGkFBmYUN k XOeHLNAY7gv6EsrW3Xqdc V gd8zNh3ES8PqyO33Zwqt FnqMp TEZ5Dk7yGcW5AFNRxpc4O nk3E6ARc6SVRbFgJyKjasrVOs7FXJqKNz nRU hdG4kC', 128, '2008-07-21 01:31:45', NULL, 128, '2008-07-21 01:31:45')[0m
+  [4;36;1mMessage Update (0.000216)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-20 01:31:45', `updated_at` = '2008-07-21 01:31:45' WHERE `id` = 108[0m
+  [4;35;1mMessage Load (0.000567)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.029242)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000173)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012263)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000501)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:33:01', '2008-07-21 01:33:01')[0m
+  [4;35;1mChannel Columns (0.002235)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000270)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:33:01', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:33:01')[0m
+  [4;35;1mMessage Columns (0.002044)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000481)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 129) [0m
+  [4;35;1mChannel Load (0.000524)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 129) [0m
+  [4;36;1mMessage Create (0.000251)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('w4 F5 fcVBywOtSusBMN qhrAPYzNBJcV FWxTKJHfq', 129, '2008-07-21 01:33:01', NULL, 129, '2008-07-21 01:33:01')[0m
+  [4;35;1mMessage Update (0.000411)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:33:01' WHERE `id` = 109[0m
+  [4;36;1mNickname Create (0.000223)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:33:01', '2008-07-21 01:33:01')[0m
+  [4;35;1mChannel Create (0.000229)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:33:01', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:33:01')[0m
+  [4;36;1mNickname Load (0.000437)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 130) [0m
+  [4;35;1mChannel Load (0.000515)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 130) [0m
+  [4;36;1mMessage Create (0.000225)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('ZAXZVj8mAZJZmDjbgOWgprB6eTkVrcPgaFzJLfNUVr9 Qz6O33aWkAfhC QaMJ4XB hZq9xZCK3m9nhQOncCgd9GKuO mzc 6SgKf8GSwA4fqKjkaeSxOW H8 cy986vaX9cYeTO8sF4Na GZ VW3KrvGjNv4qb2mdnxQjGdWUGP NDFmaQXzR sk5V4KzKcrMuZJrAeNpVq5zv SqrWekxndFuhEA3J2yr TUb A nxSSSuAVA5c85bnrJd9qx4LDEGBGDWp3DY6mffLDx2 QFX aYh bc9DsE6GfecSkBUf F8 P42XewKDy BK4Bw5ak82PgJtwXx4NpqwOA7p65DcKmprJJbTsMJpSQx9sz9OBpAyDnnHzFCnb9bbCdANR yL bTrxMb9T7ztnfdr5bJwx 9F w AqxONGTWrUNa7WVhrzm3Z24WmAh FkVuvtdX Km6agbzq2zgQ69 6VCUh2 qkLpMbqMae W2E QJcmvqT xHa XaObQyNUp8qymwrVXTnaVOZYYYw A9sXOh8M5hjYRCAqPrd gZtwOcmADkQ9T9rRZSCaEx q av6 xtt9339du', 130, '2008-07-21 01:33:01', NULL, 130, '2008-07-21 01:33:01')[0m
+  [4;35;1mMessage Update (0.000236)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 01:33:01', `updated_at` = '2008-07-21 01:33:01' WHERE `id` = 110[0m
+  [4;36;1mMessage Load (0.000565)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mSQL (0.000743)[0m   [0mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.011955)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000410)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:34:06', '2008-07-21 01:34:06')[0m
+  [4;35;1mChannel Columns (0.002650)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000355)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:34:06', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:34:06')[0m
+  [4;35;1mMessage Columns (0.002121)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mNickname Load (0.000550)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 131) [0m
+  [4;35;1mChannel Load (0.000524)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 131) [0m
+  [4;36;1mMessage Create (0.000268)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES(' fVxXCf VNXRNhgQyfFRrE8nbG5n6Fq8OFk5Yp3EHvdgcng tABWWS6QR FK 8MmCxnhcmKXsXaJrx7pT7sLyKvwXn8wAGMSa2qtFO2YjZN zYdPCFaw jDV5sOWL7tLQwWaB3ZGknN3 8F28BvESGUZrFm EsZtaUddRmsB dSZp9p TJhZ64rhJFnxRHEtNcwFrH2yX5ahFtpFHjWKHcugCExhcc642qGEpX p6z87j9WgcRvCDABXQJJF Tscf3UCqH3FHm7qqfXpKZcGQaP8PjFmdhVuCHYgAKShqYGYjrAbjHkdms9y 4B6y53MCfyUatb8Vq wN7nXm8HXV4H5LVj88BJr OB O86QCcZr 7ZwbRCKvaewX5uZYHusFPFqqwuB X9NmmAPHxk ET JMHb8yWXOySYy 8sk 8nSe8cPWDELTUJwe by FRaN8eVJv tbCeSMUhEhn2AOPd2SWy4 dRejAbQtnv6ZNBNNQtQwfgHFSzeOxWCArZkEPA 7HOO qyna9De8DC6xDCaeOE6b2M rOe8 nDuCQ4abhJHnb72GUMucaLcrzX4DNLg2ZruAnyEwO7w 6wQaPM7 TfEXKg76OEMQ7wXJzpa ukUuvYubnd8', 131, '2008-07-21 01:34:06', NULL, 131, '2008-07-21 01:34:06')[0m
+  [4;35;1mMessage Update (0.000384)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:34:06' WHERE `id` = 111[0m
+  [4;36;1mSQL (0.030802)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000215)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000128)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000134)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Columns (0.012121)[0m   [0mSHOW FIELDS FROM `nicknames`[0m
+  [4;36;1mNickname Create (0.000388)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:34:29', '2008-07-21 01:34:29')[0m
+  [4;35;1mChannel Columns (0.002695)[0m   [0mSHOW FIELDS FROM `channels`[0m
+  [4;36;1mChannel Create (0.000369)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:34:29', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:34:29')[0m
+  [4;35;1mMessage Columns (0.002443)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mChannel Load (0.000823)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 132) [0m
+  [4;35;1mSQL (0.000697)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000424)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.001813)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:34:29', '2008-07-21 01:34:29')[0m
+  [4;36;1mChannel Create (0.000303)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:34:29', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:34:29')[0m
+  [4;35;1mNickname Load (0.000670)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 133) [0m
+  [4;36;1mSQL (0.000723)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000208)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000812)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:34:29', '2008-07-21 01:34:29')[0m
+  [4;35;1mChannel Create (0.001505)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:34:29', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:34:29')[0m
+  [4;36;1mNickname Load (0.000525)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 134) [0m
+  [4;35;1mChannel Load (0.000583)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 134) [0m
+  [4;36;1mMessage Create (0.000264)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('AqNnaHYtPkhRdqrOb eS7h6CjpDE QzR mL4uGPHExpbvTu62MAMzD ujTU4MfBUj7cBwWt92hqHZFDJX6rWmBACNe8x8s4Y2QdKgUcFmTNG57KmFsGnNKU9b9U zk7xgC4u 2t5CeksuJ tNTrxXvR2KQkVsXZuSVt3 aAAKeD2 jhVM7P5WHQVst67cZh 7 Wx9rnHRXnRj 4pEpusHaXQSvn m8EmDatz kf3nu9paTVbBuMNtrRgBXm5pH7kT6EfHA7r45hkPCTBOOmxg gAU77vuEwMecgy zXVVNNhZqLWvkspSKYXL9AmYjuETLWJROavnTcmHEOEOnupd4u4vVraYRPD 2wbvgwg2qVNhF57yVAxSgy9 cEee7jZ3sK2ePDaA98T7K8EVgf zKxZUh7XuDOfU6S X HLgk ULdeFCfpjDxBf3jjbbCYQ mun reSuQUZLOtsrbNqDzKPfnaSJShFJa yR2AT Q9EWmd3Gz4crFGYXjcAGVTtCMjrLRcEBbN 8zhGSe LrAbvedmQLC7rf uEtzKhn Fwjha LUfb7DY jHBx3zEc9yz8fZZCVAWvFwJ6t9ZCBWxRDHDDcuyTHpYRfkaV8RqNEFhkCqhAFdOXUMEFW9gfaeW XZxwy2nC624w X3PG3kJXcwafrKU7PBAsTTjGQe7PM9ES5tg5xbu9 frjTMOWq3CW7D4WtbftXGn8s2sdRbpFHE3tCWOx7H6L UYNSAK7O88jf7pyPZ4JUC9ffaLvBskLahQ8vmExP TDyZdV5t8 Y4rEH6KwqGaCh8fYqvRFkZUePYBE', 134, '2008-07-21 01:34:29', NULL, 134, '2008-07-21 01:34:29')[0m
+  [4;35;1mNickname Create (0.000191)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:34:29', '2008-07-21 01:34:29')[0m
+  [4;36;1mChannel Create (0.000204)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:34:29', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:34:29')[0m
+  [4;35;1mNickname Load (0.000431)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 135) [0m
+  [4;36;1mChannel Load (0.000524)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 135) [0m
+  [4;35;1mMessage Create (0.000244)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('tgGLfZA97XUX9y8XRr TurHxN EDSfHGadfwdcKpPQRn9DOYUYRWwFScDwCtrYJLf9BhNN7UjgWffgrOmXscLyRxhqCKXJmtfK64 vYw6qB ULKrcw55c9Hd5K LAGCVkY Aw6ZRbJjZMG4SnGYnvAG 5LyzU742bdfxFAwH Q5uRDQ2T Av t8VweZhruxt2uYQnWtbuGzFAQVpUhAA RxLTjKHzGSxpUzt8DBgYOcNkhcVmMY 3QfPg2ePzcjsZt r2rXZExP7ZRe cDj2KpmgzHhCUFMKeyFR FkqgW7rNw62kAzUG6YOBH t cdyQ8A f4ZOYMzwnYk4TC7EGMT6BuqD6xhTtabM32ey93tdZVh BJXBQrx3BWqpav5 UkvWQqpcDCJMED7jKGwMLg SVFtY2SJ8vjw uOmOgHwKGE22dPf27kE Zgaw6uNWXdGuQCfPeCebfFFmzGQ5j E8r9YEaj4aZ cQ jVYKCReVBFCVeJw6VfVNruzKZGPKuVPVFZ bcv7aqSO92EZUM8zjs6FnNLryKrbDT7HXwVRukvPfMyddO8pENm VGd C9 CvNMepGBfeUgfs9e7bSHaPSY9Yz5SzaXEHMzBX7HuyVSMhrUNygUGUCV7 njuZbh6cDE2JLvAPmvz U5PUWq8aBwvup b4b8QhF9qcK7 aU4th7WvZBhgXg4 n uyBMcNpyex9 9gdmkRVk4g3NdFaYZHHP3QQS taUqDWMY NDOFakA BFz2VdaNFBZPPsSXLvLexRbXw3', 135, '2008-07-21 01:34:29', NULL, 135, '2008-07-21 01:34:29')[0m
+  [4;36;1mMessage Update (0.000390)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-19 01:34:29', `updated_at` = '2008-07-21 01:34:29' WHERE `id` = 113[0m
+  [4;35;1mMessage Load (0.000696)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC[0m
+  [4;36;1mSQL (0.018629)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000646)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000416)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:34:29', '2008-07-21 01:34:29')[0m
+  [4;35;1mChannel Create (0.000281)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:34:29', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:34:29')[0m
+  [4;36;1mNickname Load (0.000678)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 136) [0m
+  [4;35;1mChannel Load (0.000796)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 136) [0m
+  [4;36;1mMessage Create (0.000283)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something http://www.google.com/something.txt, what do you think', 136, '2008-07-21 01:34:29', NULL, 136, '2008-07-21 01:34:29')[0m
+  [4;35;1mSQL (0.000735)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mBEGIN[0m
+  [4;35;1mNickname Create (0.000278)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:34:29', '2008-07-21 01:34:29')[0m
+  [4;36;1mChannel Create (0.000190)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:34:29', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:34:29')[0m
+  [4;35;1mNickname Load (0.000450)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 137) [0m
+  [4;36;1mChannel Load (0.000552)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 137) [0m
+  [4;35;1mMessage Create (0.000193)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something: http://www.google.com', 137, '2008-07-21 01:34:29', NULL, 137, '2008-07-21 01:34:29')[0m
+  [4;36;1mNickname Create (0.000266)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:34:29', '2008-07-21 01:34:29')[0m
+  [4;35;1mChannel Create (0.000191)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:34:29', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:34:29')[0m
+  [4;36;1mNickname Load (0.000416)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 138) [0m
+  [4;35;1mChannel Load (0.000513)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 138) [0m
+  [4;36;1mMessage Create (0.000186)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('here is something else: http://www.yahoo.com', 138, '2008-07-21 01:34:29', NULL, 138, '2008-07-21 01:34:29')[0m
+  [4;35;1mMessage Load (0.000539)[0m   [0mSELECT * FROM `messages` [0m
+  [4;36;1mSQL (0.000685)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000150)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000259)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:34:29', '2008-07-21 01:34:29')[0m
+  [4;35;1mChannel Create (0.000267)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:34:29', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:34:29')[0m
+  [4;36;1mNickname Load (0.000490)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 139) [0m
+  [4;35;1mChannel Load (0.000560)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 139) [0m
+  [4;36;1mMessage Create (0.000236)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('jdUBug9ukvLE8je NE7DT qXwA QthCVrmsXTGKQHc5VXFaV5zxcBnHy 5VyqDubF2gn v D2qJ5pewAUhbwzG g hRsPQP hcSMFgKEfyqsutpA RPUV Q8d5Nrs 8qyWzsvj yNYsHVe7bLXYp z9zR6TKMnXxTwXPx6dScy8m7SdfkMhUxyWtKMCxFCO3wpvr FBwg7mBNm8NzEEBAvFck SL 8Gu2tcSHKLuC nedxZsX7rydK8DVN78MLFY6W5ZSyNZBwhs8OYdyvsg6Jh3Lxr8WS WyNOyBudeNKKeLrGxPKBhw3Rt7x ts 4SZnGBjLGw CdQMcdf2gAMvUY WL2AM7GgpQ5S7mgSO4LZnCVZEqFmyJxc5jPwH2J 2Fw9NyuucCmfvBXa7XObhFwdbJKFuXZuh8qOvpf2n9eq8QZLKBds6rcJHHQNrWdvkvB679pFkOK9c4HuJtyMt95mrMOxHSYWUt7MPQxBFR7AdhmYnwk8SLuyWXqOwQmn9 GcXx7HzduF4xXWcVqvzxE C yZENQNAcbYVT9YcqnT2N 9E7', 139, '2008-07-21 01:34:29', NULL, 139, '2008-07-21 01:34:29')[0m
+  [4;35;1mMessage Update (0.000234)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:34:29' WHERE `id` = 117[0m
+  [4;36;1mMessage Load (0.000570)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at DESC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000198)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:34:29', '2008-07-21 01:34:29')[0m
+  [4;36;1mChannel Create (0.000180)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:34:29', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:34:29')[0m
+  [4;35;1mNickname Load (0.000400)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 140) [0m
+  [4;36;1mChannel Load (0.000508)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 140) [0m
+  [4;35;1mMessage Create (0.000211)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('tsyTMvUc5UGa4bXNG4dD eqMWPW5NHKBtkEd tfxT36n5JKcSPv3YkC53vQDhrDJq5aT GHOmjM2cfGCuYa 4fWbhH4DhnEtFX OSnHDaMkQ 2Od 4AmQpcW q7HyQsWTbS55 X5hN VT 54aDf55RfnHnrE Z7dnSLBASxv9FSCO zRXkcmfAGc4UsBjGKHCY8ktUZqFfeMOB MbwL6kYRf8MGETh Bwr94f9rKmYwGasMTN9zjvtD7bzdvK8 M ncbv9gGCw53hjxCBy6Rd3qESG5s PMBuZyxEFHqxzZrxc3hGwp4ySZ2JgypSwwq Tk9ZyPvdJqF2duFb gS9spcRkdy5yvVQQ5 AtHV C y5EXDrqV3UtFjt9zeB8BLnNHpY K42UJ7V yyLKLdyjawYtpLbFcrkL9qHLM7NnuC8Xauk UKFqxTNKhPXcA3K nQBMvLma htg N4ygmv9qscCgYSGEHpggJu2uNvfQVFv4nYEMzGWYQYxGgGFAa5hmu93gyV NjsHxRGFhrbqBHk3z7q3bCaAtC gknvPrcGuwWAQDRyWwQVxDQhsStvUfCjK7f5X tfvHeWKyzHRum32MBPUM7bFZzTzTUQLb2n7jem5gfqF H VnY ddNXM seMnGDOsf9EZHCah3he5Jd8JRcO3V ZVZb', 140, '2008-07-21 01:34:29', NULL, 140, '2008-07-21 01:34:29')[0m
+  [4;36;1mMessage Update (0.000230)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-22 01:34:29', `updated_at` = '2008-07-21 01:34:29' WHERE `id` = 118[0m
+  [4;35;1mMessage Load (0.000739)[0m   [0mSELECT * FROM `messages` ORDER BY created_at DESC LIMIT 1[0m
+  [4;36;1mSQL (0.000978)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.001345)[0m   [0mBEGIN[0m
+  [4;36;1mNickname Create (0.000264)[0m   [0;1mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_1', '2008-07-21 01:34:29', '2008-07-21 01:34:29')[0m
+  [4;35;1mChannel Create (0.000187)[0m   [0mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_3', '2008-07-21 01:34:29', 'BOT_2', '6667', 'irc.freenode.net', '2008-07-21 01:34:29')[0m
+  [4;36;1mNickname Load (0.000438)[0m   [0;1mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 141) [0m
+  [4;35;1mChannel Load (0.000509)[0m   [0mSELECT * FROM `channels` WHERE (`channels`.`id` = 141) [0m
+  [4;36;1mMessage Create (0.000194)[0m   [0;1mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('aN3xzj2G 4BtPh knPEdvpDrnAOs7tzDZJ kgzOLMUwBW7nBa4GY7b37 9T2H3jLxw9vUu5e6pQGDauek6Otx pkVA FPtav7aE86HdwEdyZmp SeuS3M8TYLvZJLOyrj6yBbJTG6EJmmE', 141, '2008-07-21 01:34:29', NULL, 141, '2008-07-21 01:34:29')[0m
+  [4;35;1mMessage Update (0.000224)[0m   [0mUPDATE `messages` SET `created_at` = '2008-07-20 05:00:00', `updated_at` = '2008-07-21 01:34:29' WHERE `id` = 119[0m
+  [4;36;1mMessage Load (0.000588)[0m   [0;1mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;35;1mNickname Create (0.000807)[0m   [0mINSERT INTO `nicknames` (`name`, `updated_at`, `created_at`) VALUES('USER_4', '2008-07-21 01:34:29', '2008-07-21 01:34:29')[0m
+  [4;36;1mChannel Create (0.000191)[0m   [0;1mINSERT INTO `channels` (`name`, `updated_at`, `nickname`, `port`, `server`, `created_at`) VALUES('Channel_6', '2008-07-21 01:34:29', 'BOT_5', '6667', 'irc.freenode.net', '2008-07-21 01:34:29')[0m
+  [4;35;1mNickname Load (0.000471)[0m   [0mSELECT * FROM `nicknames` WHERE (`nicknames`.`id` = 142) [0m
+  [4;36;1mChannel Load (0.000511)[0m   [0;1mSELECT * FROM `channels` WHERE (`channels`.`id` = 142) [0m
+  [4;35;1mMessage Create (0.000198)[0m   [0mINSERT INTO `messages` (`message`, `channel_id`, `updated_at`, `nickname`, `nickname_id`, `created_at`) VALUES('vOVwSzZR 3 bPFOCR54sk3WCbcGzb5fEgCQucefY PCgXTnpKWqQYbAKDCtsq TOBWFaaDdme9ULuyfz7zr6pM4m4yhTNqNqVn7KvTPc6bHOTWQh3H6n5KMQKO66TRxExDWULU957 CQsFcgf7h 5LRR ekrVYFESTV9 QZ9AGYN82w5OZFAS uGwH9jTxvUDmVHd VmdA7Gsu4a3NF', 142, '2008-07-21 01:34:29', NULL, 142, '2008-07-21 01:34:29')[0m
+  [4;36;1mMessage Update (0.000212)[0m   [0;1mUPDATE `messages` SET `created_at` = '2008-07-19 01:34:29', `updated_at` = '2008-07-21 01:34:29' WHERE `id` = 120[0m
+  [4;35;1mMessage Load (0.000623)[0m   [0mSELECT * FROM `messages` ORDER BY created_at ASC LIMIT 1[0m
+  [4;36;1mSQL (0.000820)[0m   [0;1mROLLBACK[0m

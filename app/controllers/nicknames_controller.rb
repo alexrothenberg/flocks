@@ -1,0 +1,2 @@
+class NicknamesController < ApplicationController
+end
