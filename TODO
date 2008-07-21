@@ -1,0 +1,15 @@
+== Flock-IRC ==
+* Automatic refresh of channel activity
+* User Participation (Basic IRC Proxy)
+* Associate Avatars with Nicknames
+* Capture other IRC events (i.e Topic Change)
+* Better Pagination
+* Display Member messages by channel
+* Conversation Isolation
+
+== Flock-SHOUT ==
+* User login
+* User can post messages
+
+== Flock-MAIL ==
+* subdomains
